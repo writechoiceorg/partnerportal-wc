@@ -1,0 +1,214 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "PartnerPortal.io",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#22C55E",
+    "dark": "#15803D"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Get Started",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": ["index", "get-started/quickstart"]
+          },
+          {
+            "group": "Sign Up",
+            "pages": [
+              "get-started/sign-up/pricing-model",
+              "get-started/sign-up/how-to-add-team",
+              "get-started/sign-up/if-billing-fails",
+              "get-started/sign-up/reset-password"
+            ]
+          },
+          {
+            "group": "Set Up Your Partner Program",
+            "pages": [
+              "get-started/set-up-your-partner-program/how-to-setup-program-details",
+              "get-started/set-up-your-partner-program/how-to-add-partner",
+              "get-started/set-up-your-partner-program/how-to-create-partner-group",
+              "get-started/set-up-your-partner-program/how-to-add-program-terms"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Portal Setup",
+        "groups": [
+          {
+            "group": "Account Setup",
+            "pages": [
+              "portal-setup/account-setup/sso",
+              "portal-setup/account-setup/update-biling-info",
+              "portal-setup/account-setup/how-to-disable-enable-notifications"
+            ]
+          },
+          {
+            "group": "Dashboard",
+            "pages": [
+              "portal-setup/dashboard/how-to-use-dashboard",
+              "portal-setup/dashboard/how-to-customize-branding",
+              "portal-setup/dashboard/announcements",
+              "portal-setup/dashboard/how-to-embed-video",
+              "portal-setup/dashboard/how-to-insert-images"
+            ]
+          },
+          {
+            "group": "Team",
+            "pages": [
+              "portal-setup/team/how-to-add-team",
+              "portal-setup/team/how-to-update-roles-permissions",
+              "portal-setup/team/how-to-suspend-account"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Partners & Leads",
+        "groups": [
+          {
+            "group": "Partners",
+            "pages": [
+              "partner-and-leads/partners/manage-partners",
+              "partner-and-leads/partners/create-test-partner",
+              "partner-and-leads/partners/submit-lead-for-partner",
+              "partner-and-leads/partners/share-resources-with-partner"
+            ]
+          },
+          {
+            "group": "Leads",
+            "pages": [
+              "partner-and-leads/leads/manage-leads",
+              "partner-and-leads/leads/customize-lead-phases",
+              "partner-and-leads/leads/customize-lead-registration-form",
+              "partner-and-leads/leads/bulk-import-leads",
+              "partner-and-leads/leads/accept-international-phone"
+            ]
+          },
+          {
+            "group": "Partner Users",
+            "pages": [
+              "partner-and-leads/partner-users/add-partner-user",
+              "partner-and-leads/partner-users/add-team-member-to-partner",
+              "partner-and-leads/partner-users/bulk-import-partner-users",
+              "partner-and-leads/partner-users/update-partner-user-roles-permissions",
+              "partner-and-leads/partner-users/what-visibility-team-members-have",
+              "partner-and-leads/partner-users/suspend-team-members-account"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "HubSpot",
+            "pages": [
+              "integrations/hubspot/how-to-connect-hubspot",
+              "integrations/hubspot/map-custom-fields",
+              "integrations/hubspot/map-partner-data",
+              "integrations/hubspot/map-lead-comments",
+              "integrations/hubspot/map-to-multiple-pipelines",
+              "integrations/hubspot/enable-reseller-permissions",
+              "integrations/hubspot/reauthorize-hubspot"
+            ]
+          },
+          {
+            "group": "Salesforce",
+            "pages": [
+              "integrations/salesforce/connect-salesforce"
+            ]
+          },
+          {
+            "group": "Pipedrive",
+            "pages": [
+              "integrations/pipedrive/connect-pipedrive",
+              "integrations/pipedrive/map-custom-fields"
+            ]
+          },
+          {
+            "group": "Zoho",
+            "pages": [
+              "integrations/zoho/connect-zoho"
+            ]
+          },
+          {
+            "group": "PayPal",
+            "pages": [
+              "integrations/paypal/setup-paypal",
+              "integrations/paypal/add-paypal-email"
+            ]
+          },
+          {
+            "group": "Accounting",
+            "pages": [
+              "integrations/accounting/connect-quickbooks"
+            ]
+          },
+          {
+            "group": "Zapier",
+            "pages": [
+              "integrations/zapier/streamline-with-zapier",
+              "integrations/zapier/create-lead"
+            ]
+          },
+          {
+            "group": "Slack",
+            "pages": [
+              "integrations/connect-slack",
+              "integrations/prevent-channel-conflict"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
+          {
+            "group": "Payments",
+            "pages": [
+              "features/payments/understand-payments",
+              "features/payments/understand-revenue-and-commission",
+              "features/payments/add-revenue-partner-payments",
+              "features/payments/setup-payment-scheduler",
+              "features/payments/disable-payments"
+            ]
+          },
+          {
+            "group": "Resource Center",
+            "pages": [
+              "features/resource-center/setting-up-resource-center",
+              "features/resource-center/add-resource",
+              "features/resource-center/delete-resource",
+              "features/resource-center/delete-category",
+              "features/resource-center/view-partner-engagement-history"
+            ]
+          },
+          {
+            "group": "Opportunities",
+            "pages": [
+              "features/opportunities/setup-opportunities",
+              "features/opportunities/using-opportunities"
+            ]
+          },
+          {
+            "group": "Metrics",
+            "pages": [
+              "features/metrics/understanding-metrics-dashboard"
+            ]
+          },
+          {
+            "group": "Multi-Language",
+            "pages": [
+              "features/using-multilanguage-feature"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
