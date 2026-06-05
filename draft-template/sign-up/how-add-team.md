@@ -1,4 +1,4 @@
-# How to add PartnerPortal support to your portal
+# How to add PartnerPortal Support as a staff admin
 
 Grant the PartnerPortal support team access to your portal so they can assist with branding customization or troubleshooting.
 
