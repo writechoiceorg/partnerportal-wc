@@ -86,11 +86,4 @@ Contact the PartnerPortal support team at [support@partnerportal.io](mailto:supp
 
 ---
 
-## Next Steps
-
-- [Update your profile settings](#)
-- [Contact support](mailto:support@partnerportal.io)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*

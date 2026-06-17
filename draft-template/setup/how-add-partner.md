@@ -143,14 +143,4 @@ PartnerPortal does not automatically merge duplicate companies. Contact support 
 
 ---
 
-## Next Steps
-
-Once your partners have access to the portal, they can:
-
-- [Register their first deal](#)
-- [Invite their team members](#)
-- [Explore available program resources](#)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*

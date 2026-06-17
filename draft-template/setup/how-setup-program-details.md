@@ -123,12 +123,4 @@ Toggle off the **Enabled** button in the Partner Program section under Program S
 
 ---
 
-## Next Steps
-
-- [Set up a Payment Schedule](https://help.partnerportal.io/en/articles/8349462-how-to-create-scheduled-payments)
-- [Add and enable Program Terms](#)
-- [Create Partner Groups](#)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*

@@ -1,0 +1,122 @@
+---
+title: "Map Custom Fields to HubSpot"
+description: "Learn how to map custom text and picklist fields from your PartnerPortal.io lead form to your HubSpot deal properties."
+---
+
+Custom fields let you pass partner-submitted data directly into your HubSpot deal. This guide walks you through mapping both single-line text fields and picklist (drop-down) fields.
+
+**Who can do this:** Admins only
+
+---
+
+> **Before you start:** The custom field must already exist in HubSpot as a deal property before it will appear in the portal's mapping interface. If you haven't created it yet, follow [HubSpot's guide to creating and editing properties](https://knowledge.hubspot.com/properties/create-and-edit-properties) first.
+
+---
+
+## Before You Start
+
+Make sure you have the following in place before beginning:
+
+- Admin access to PartnerPortal.io
+- The custom field already created as a HubSpot deal property
+- The custom field added to your Lead Registration Form (see Step 1 below)
+
+---
+
+## Step 1: Add the Custom Field to Your Lead Form
+
+Before you can map a field to HubSpot, it needs to be active on your Lead Registration Form.
+
+1. Go to the **Leads** tab under **Accounts & Settings**.
+2. Open the **Lead Registration Form** and click the pencil icon to edit it.
+3. Add your custom field.
+4. Check the **Active** box so the field appears on the form.
+5. Check **Required** if you want partners to fill it in before submitting.
+
+![Lead Registration Form editor showing a custom field being added with the Active checkbox enabled](https://downloads.intercomcdn.com/i/o/j01nt7mc/2024390784/e6bbcda6610f25bfc085a2b5794b/Screenshot+2026-02-03+at+3_51_11%E2%80%AFPM.png)
+
+---
+
+## Step 2: Open the HubSpot Integration Settings
+
+1. Go to the **Integrations** tab.
+2. Select **Settings** under HubSpot.
+3. Click **Configure**.
+4. Scroll to the **Deal** object and find the custom field section at the bottom.
+
+![HubSpot configuration screen showing the Deal object with the custom fields section expanded](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219629765/d0e396a197e56c42292a8e4ab494/Screenshot+2024-10-17+at+10_47_03%E2%80%AFAM+%282%29.png)
+
+---
+
+## Step 3: Map the Field
+
+The mapping steps vary slightly depending on the field type. Follow the section that matches your field.
+
+### Single-Line Text Fields
+
+1. In the **Deal** object, select your custom field from the dropdown.
+
+   ![Dropdown showing available custom fields in the Deal object](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219633138/d99c6d3cc8acd0b4b5dc3b939775/Screenshot+2024-10-17+at+11_42_01%E2%80%AFAM+%282%29.png)
+
+2. Click **Add**.
+
+   ![Custom field added to the mapping list](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219635160/a37bc30234c193e83bbad18796db/Screenshot+2024-10-17+at+11_43_42%E2%80%AFAM+%282%29.png)
+
+3. Click the newly added field and configure the mapping:
+
+   | Setting | Value |
+   |---|---|
+   | **Type** | Portal object |
+   | **Object** | Lead |
+   | **Field** | The custom portal field you want to map |
+
+   ![Mapping configuration panel for a single-line text field](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219635652/2b318bd0bea9399347f7f2228835/Screenshot+2024-10-17+at+11_43_12%E2%80%AFAM+%282%29.png)
+
+---
+
+### Picklist (Drop-Down) Fields
+
+Make sure the picklist field exists in both your HubSpot deal properties and your Lead Registration Form before starting.
+
+1. Select the custom picklist field from the dropdown in the **Deal** object.
+2. Click **Add**.
+3. Click the newly added field and configure the mapping:
+
+   | Setting | Value |
+   |---|---|
+   | **Type** | Portal object |
+   | **Object** | Lead |
+   | **Field** | The custom portal field you want to map |
+
+   ![Mapping configuration panel for a picklist field](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219642905/bb9635d9b74da0678edb72f900a3/Screenshot+2024-10-17+at+11_44_10%E2%80%AFAM+%282%29.png)
+
+4. Click **Map Values** to match each PartnerPortal.io lead field option to the corresponding HubSpot drop-down value.
+
+   ![Map Values panel showing pp.io lead options mapped to HubSpot drop-down values](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219643710/60282c0869dd7a1131a557117201/Screenshot+2024-10-17+at+11_44_34%E2%80%AFAM+%282%29.png)
+
+---
+
+## Step 4: Save Your Settings
+
+Click **Save** when you have finished mapping all fields.
+
+---
+
+## Troubleshooting
+
+**My custom field doesn't appear in the mapping dropdown.**
+The field must exist as a HubSpot deal property before it shows up in the portal. Go to HubSpot and create the property first, then return to the mapping screen.
+
+**The field is in HubSpot but still not appearing.**
+Make sure the field is also added to your Lead Registration Form in PartnerPortal.io and that the **Active** box is checked (Step 1).
+
+---
+
+## Next Steps
+
+- [Map lead comments to HubSpot](https://intercom.help/partnerportalio/en/articles/6977807-how-to-map-lead-comments-to-hubspot)
+- [Map partner data to HubSpot](https://help.partnerportal.io/en/articles/10007869-how-to-map-partner-data-to-hubspot)
+
+---
+
+*PartnerPortal Documentation · Last updated: [Month Year]*

@@ -1,0 +1,88 @@
+---
+title: "Map Leads to Multiple HubSpot Pipelines by Lead Type"
+description: "Learn how to route leads to different HubSpot pipelines automatically based on the lead type set in your lead registration form."
+---
+
+When your partners submit leads, PartnerPortal.io can route each one to a different HubSpot pipeline based on a lead type field. This lets you separate leads by criteria such as business type, partner tier, location, or product.
+
+**Who can do this:** Admins only
+
+---
+
+## Before You Start
+
+- Admin access to PartnerPortal.io
+- A HubSpot integration already connected and configured
+- Multiple pipelines already set up in HubSpot
+
+---
+
+## Step 1: Create Lead Types in Your Registration Form
+
+Lead types are configured as a drop-down field on your lead registration form.
+
+1. Go to the **Accounts & Settings** tab and select the **Leads** sub-tab.
+2. Click **Edit Options** next to **Type**.
+3. Click the **+** button to add each lead type.
+
+![Lead registration form settings showing the Edit Options button next to the Type field](https://downloads.intercomcdn.com/i/o/j01nt7mc/1226402439/830b4547933e56d5504d5392f588/Screenshot+2024-10-23+at+11_45_14%E2%80%AFAM.png)
+
+Common examples of lead types include:
+
+- Type of lead (e.g., "New Business" vs. "Existing Client")
+- Type of partner
+- Partner location
+- Type of product
+
+---
+
+## Step 2: Map Lead Types to HubSpot Pipelines
+
+1. Go to the **Integrations** tab and open **Settings** under HubSpot.
+2. Click **Configure** and find the **Pipeline** object.
+3. Configure the Pipeline object as follows:
+
+   | Setting | Value |
+   |---|---|
+   | **Type** | Portal Object |
+   | **Field** | Type |
+
+4. Click **Map Values**.
+
+   ![HubSpot configuration showing the Pipeline object set to Portal Object with Field set to Type](https://downloads.intercomcdn.com/i/o/j01nt7mc/1226409918/2c0a6b7406eaa6b0361a4bbe7851/Screenshot+2024-10-23+at+11_59_42%E2%80%AFAM.png)
+
+5. For the **On Create set HubSpot Pipeline to** field, select **Map Manually**. This ensures each lead type routes to the correct pipeline when a lead is created or updated.
+6. For each lead type listed, select the corresponding HubSpot pipeline from the dropdown.
+7. Click **Save**.
+
+   ![Map Values panel showing each lead type mapped to a corresponding HubSpot pipeline](https://downloads.intercomcdn.com/i/o/j01nt7mc/1226429240/01254e4570ab0921e248f15cce43/Screenshot+2024-10-23+at+12_11_25%E2%80%AFPM.png)
+
+---
+
+## Step 3: Map Deal Stages for Each Pipeline
+
+Because the pipeline is sourced dynamically from the lead type, you need to map deal stages for each pipeline separately.
+
+1. Find the **Deal Stages** object and click **Map Values**.
+
+   ![HubSpot configuration showing the Deal Stages object with the Map Values button](https://downloads.intercomcdn.com/i/o/j01nt7mc/1226453791/608e8631c45de62917b2ce5028da/Screenshot+2024-10-23+at+12_15_31%E2%80%AFPM.png)
+
+2. Set the stage that all deals should start in when created in HubSpot. The **Map Manually** option is recommended to ensure the mapping is set to your preference.
+3. On the left-hand side, select each lead type in turn and map the portal phases to the desired HubSpot stages for that pipeline.
+4. In the **When HubSpot Deal is changed** section, complete the mapping for all pipelines so that partner portal phases update whenever you move a deal stage in HubSpot.
+
+---
+
+## Step 4: Copy Mappings Across Lead Types (Optional)
+
+If multiple lead types share the same deal stage mapping, use the **Copy to All** button to apply the same mapping values to all lead types at once. This saves time when you have many lead types to configure.
+
+---
+
+## Next Steps
+
+- [Customize lead phases and deal stages](https://help.partnerportal.io/en/articles/8065753-how-to-customize-lead-phases-and-deal-stages)
+
+---
+
+*PartnerPortal Documentation · Last updated: [Month Year]*

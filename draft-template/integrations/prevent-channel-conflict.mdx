@@ -1,0 +1,55 @@
+---
+title: "How Channel Conflict Prevention Works"
+description: "Learn how PartnerPortal.io prevents duplicate leads and channel conflict when pushing leads to your CRM."
+---
+
+When a partner registers a lead, there's a risk that the same company or contact already exists in your CRM — either as an existing deal or a previously registered lead. PartnerPortal.io is designed to prevent duplicates and give you control over how new leads connect to existing records.
+
+---
+
+## How the Type-Ahead System Works
+
+When you approve a lead in PartnerPortal.io, the portal searches your connected CRM for existing records before creating anything new. You can link the incoming lead to an existing deal in your CRM, or choose to create a new one. This is the first line of defense against partners registering duplicate leads.
+
+> **Note:** The exact behavior varies slightly depending on which CRM integration you are using.
+
+---
+
+## Behavior by CRM
+
+### HubSpot (Automatic De-Duplication)
+
+When a lead is approved and pushed to HubSpot, the portal follows this process automatically:
+
+1. It searches for an existing company using the submitted company's domain name. If found, it uses that company; if not, it creates one.
+2. It searches for an existing contact using the submitted email address. If found, it uses that contact; if not, it creates one.
+3. The contact is associated with the company.
+4. A new deal is created from the PartnerPortal.io lead data.
+5. The contact and company are associated with the new deal.
+
+> **Note:** De-duplication is not applied at the deal creation stage — a new deal is always created, but it is linked to existing company and contact records where they are found.
+
+---
+
+### Salesforce (Configurable De-Duplication)
+
+De-duplication behavior in Salesforce is determined by your Salesforce configuration. PartnerPortal.io does not have visibility into your specific de-duplication rules. If Salesforce rejects a record creation due to a de-duplication rule, the portal will surface that error to you.
+
+---
+
+## What This Means for You
+
+- For HubSpot users, company and contact de-duplication happens automatically — you do not need to configure anything.
+- For Salesforce users, your existing Salesforce de-duplication rules apply. Review your Salesforce configuration to ensure the rules reflect how you want duplicates handled.
+- Regardless of CRM, you can always link an incoming lead to an existing CRM deal at the point of approval instead of creating a new record.
+
+---
+
+## Related Guides
+
+- [Connect and configure the Salesforce integration](https://help.partnerportal.io)
+- [Connect and configure the HubSpot integration](https://help.partnerportal.io)
+
+---
+
+*PartnerPortal Documentation · Last updated: [Month Year]*
