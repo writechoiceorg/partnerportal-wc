@@ -1,0 +1,110 @@
+---
+title: "Map Custom Fields to Pipedrive"
+description: "Learn how to map custom fields from your PartnerPortal.io lead form to your Pipedrive CRM."
+---
+
+Custom field mapping lets information submitted through your Lead Registration Form sync directly to the correct fields in Pipedrive.
+
+**Who can do this:** Admins only
+
+---
+
+> **Before you start:** Custom fields must exist in **both** PartnerPortal.io and Pipedrive before they will appear in the mapping interface. Set them up in both places first:
+> - [How to customize your Lead Registration Form](https://help.partnerportal.io/en/articles/8732193-how-to-customize-the-lead-registration-form)
+> - [How to create custom fields in Pipedrive](https://support.pipedrive.com/en/article/custom-fields)
+
+---
+
+## Before You Start
+
+- Admin access to PartnerPortal.io
+- Pipedrive integration already connected and configured
+- Custom fields created in both the portal Lead Registration Form and in Pipedrive
+
+---
+
+## Step 1: Open the Integration Mapping
+
+1. Go to the **Integrations** tab.
+2. Select **Settings** for the Pipedrive integration.
+3. Click **Configure** to open the mapping page.
+
+---
+
+## Step 2: Map the Field
+
+Follow the section that matches your field type.
+
+### Single-Line Text Fields
+
+1. In the object of your choice (deal, person, or organization), select the desired Pipedrive custom field from the dropdown. Only fields that already exist in Pipedrive will appear here.
+2. Click **Add**.
+3. Click the newly added field and configure the mapping:
+
+   | Setting | Value |
+   |---|---|
+   | **Type** | Portal Object |
+   | **Object** | Lead |
+   | **Field** | The corresponding portal field from your lead form |
+
+   ![Mapping configuration panel for a single-line text field showing Type, Object, and Field settings](https://downloads.intercomcdn.com/i/o/j01nt7mc/2156023365/77e745bd972edeac3dade34d018e/Screenshot+2026-03-12+at+10_12_47%E2%80%AFAM+%282%29.png)
+
+4. Click **Save Mappings**.
+
+---
+
+### Picklist (Dropdown) Fields
+
+1. Confirm the picklist field exists in both Pipedrive and the Lead Registration Form.
+2. Select the custom picklist field from the object dropdown.
+3. Click **Add**.
+4. Click the newly added field and configure the mapping:
+
+   | Setting | Value |
+   |---|---|
+   | **Type** | Portal Object |
+   | **Object** | Lead |
+   | **Field** | The corresponding portal field from your lead form |
+
+5. Click **Map Values** to match each portal dropdown option to its corresponding Pipedrive value.
+
+   ![Map Values panel for a picklist field showing portal options alongside Pipedrive dropdown values](https://downloads.intercomcdn.com/i/o/j01nt7mc/2156033814/d14f6b3e712afd8c387ad73fadfa/Screenshot+2026-03-12+at+10_16_43%E2%80%AFAM+%282%29.png)
+
+6. In the mapping window, select **Map Manually** to choose exactly which portal dropdown option maps to which Pipedrive value.
+
+   ![Map Manually option selected in the picklist mapping window](https://downloads.intercomcdn.com/i/o/j01nt7mc/2156047393/6ea3d0549053256b01c2e90aca50/Screenshot+2026-03-12+at+10_20_22%E2%80%AFAM+%282%29.png)
+
+7. Click **Save** in the mapping window, then click **Save Mappings** on the main page.
+
+---
+
+### Fields Not on the Lead Form (Partner Data)
+
+Some information — such as partner details — does not need to appear on the Lead Registration Form. If the destination field already exists in Pipedrive, you can map it directly without adding a new portal field.
+
+1. In the **Deal** object, select the Pipedrive field from the dropdown.
+2. Click **Add**.
+
+   ![Deal object showing a Pipedrive field selected in the dropdown and the Add button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2156066032/7cd19dffd4b2dedcf6baf6553f98/Screenshot%2B2026-03-10%2Bat%2B3_40_09-E2-80-AFPM%2B-282-29.png)
+
+3. Click the newly added field and configure the mapping:
+
+   | Setting | Value |
+   |---|---|
+   | **Type** | Portal Object |
+   | **Object** | Partner Organization (for partner company name) or Partner User (for individual partner information) |
+   | **Field** | The specific information you want to map |
+
+   ![Mapping configuration panel showing Object set to Partner Organization with available fields](https://downloads.intercomcdn.com/i/o/j01nt7mc/2156078156/f2e8e3112b78f6c3237674960dbd/Screenshot+2026-03-12+at+10_28_35%E2%80%AFAM+%282%29.png)
+
+4. Click **Save Mappings**.
+
+---
+
+## Next Steps
+
+- [Connect and configure the Pipedrive integration](https://help.partnerportal.io/en/articles/8991922-how-to-connect-to-pipedrive)
+
+---
+
+*PartnerPortal Documentation · Last updated: [Month Year]*

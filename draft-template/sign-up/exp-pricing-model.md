@@ -50,10 +50,4 @@ For more information, contact the sales team at [sales@partnerportal.io](mailto:
 
 ---
 
-## Related Articles
-
-- [What happens when my billing fails?](#)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*

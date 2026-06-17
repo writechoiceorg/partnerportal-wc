@@ -1,0 +1,62 @@
+---
+title: "Enable Reseller Permissions for Partners"
+description: "Learn how to enable Two-Way Sync and Reseller Permissions so that partners can update deal stages in PartnerPortal.io on your behalf."
+---
+
+Reseller Permissions allow partners to update portal phases directly, and those changes sync back to HubSpot automatically. This reduces manual work for your team when partners are actively managing deals.
+
+**Who can do this:** Portal owners and admins only
+
+---
+
+> **Important:** Reseller Permissions are only available with the HubSpot CRM integration. This feature is not compatible with other CRMs.
+
+---
+
+## Before You Start
+
+- Owner or Admin access to PartnerPortal.io
+- HubSpot integration already connected
+- Two-Way Sync must be enabled and Portal Phases must be mapped before you can activate Reseller Permissions for a partner (both covered in this guide)
+
+---
+
+## Step 1: Enable Two-Way Sync
+
+Two-Way Sync allows partners to edit Phase, Close Value, and Close Date in the portal, with changes syncing back to HubSpot.
+
+1. Go to the **Integrations** tab, select **HubSpot Settings**, and click **Configure**.
+2. Scroll down to the **Other Settings** section and enable **Two-Way Sync**.
+
+   ![HubSpot Other Settings section with the Two-Way Sync toggle enabled](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219803286/490a250cfc950225d52d78865ef8/Screenshot+2024-10-17+at+2_09_40%E2%80%AFPM+%282%29.png)
+
+---
+
+## Step 2: Map Portal Phases to HubSpot Deal Stages
+
+With Two-Way Sync enabled, you need to map which HubSpot deal stage each portal phase corresponds to, and vice versa.
+
+1. Scroll up to the **Deal Stage** field and click **Map Values**.
+2. In the **When Portal Phase is changed** section, select which HubSpot stage a deal should move to when the portal phase changes (for example, Lost → Closed Lost).
+3. Below that, map which portal phase should update when a HubSpot deal stage changes.
+
+   ![Deal Stage mapping panel showing portal phases mapped to HubSpot deal stages in both directions](https://downloads.intercomcdn.com/i/o/j01nt7mc/1219803935/f5a1ade3e07232fba9900cf074a0/Screenshot+2024-10-17+at+2_05_13%E2%80%AFPM+%282%29.png)
+
+4. Before saving, make sure the **On Create set HubSpot Deal Stage to** field is also mapped.
+5. Save your settings.
+
+---
+
+## Step 3: Enable Reseller Permissions for a Partner
+
+1. Go to the **Partners** tab and select the partner you want to enable Reseller Permissions for.
+2. Click **More Details** and scroll to the **Permissions** section.
+3. Toggle **Reseller Permissions** on or off.
+
+   ![Partner detail view showing the Permissions section with the Reseller Permissions toggle](https://downloads.intercomcdn.com/i/o/722241981/a7caf1939393c49ac99900a4/Screenshot+2023-04-24+at+11.41.46+AM.png)
+
+Once enabled, the partner and their users can update Portal Phases on your behalf.
+
+---
+
+*PartnerPortal Documentation · Last updated: [Month Year]*

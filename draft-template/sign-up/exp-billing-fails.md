@@ -34,10 +34,4 @@ If you are unable to resolve the issue on your own, contact the support team at 
 
 ---
 
-## Related Articles
-
-- [What is the PartnerPortal.io pricing model?](#)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*

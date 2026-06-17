@@ -102,12 +102,4 @@ New partners are only added automatically to the All Partners group. You must ma
 
 ---
 
-## Next Steps
-
-- [Set up Resource Center visibility by group](https://help.partnerportal.io/en/articles/6932138-setting-up-the-resource-center)
-- [Customize the lead registration form by group](https://help.partnerportal.io/en/articles/8732193-how-to-customize-the-lead-registration-form)
-- [Approve and manage partners](#)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*

@@ -1,0 +1,94 @@
+---
+title: "Connect and Configure the Zoho Integration"
+description: "Learn how to connect your Zoho CRM to PartnerPortal.io and map your pipeline stages and portal phases."
+---
+
+Connecting Zoho to PartnerPortal.io lets you sync deals, track pipeline updates, and give partners visibility into the sales cycle.
+
+**Who can do this:** Admins only
+
+---
+
+> **Important:** The **Won** and **Lost** stages must be mapped for the integration to function correctly.
+
+---
+
+## Before You Start
+
+- Admin access to PartnerPortal.io
+- Access to the Zoho account you want to connect
+
+---
+
+## Step 1: Connect Your Zoho Account
+
+1. Go to the **Integrations** tab in the sidebar.
+2. Click **Enable Zoho**.
+3. You will be redirected to Zoho. Log in if prompted, or confirm the connection if you're already logged in.
+4. Once connected, click **Settings** for the Zoho integration.
+5. Click **Configure** to begin mapping your data.
+
+---
+
+## Step 2: Select a Pipeline
+
+1. In the configuration screen, locate the **Pipeline** card under the Deal object.
+2. Click the card to open it.
+3. Click the **Value** dropdown and select the Zoho pipeline you want to sync with your portal.
+
+   ![Pipeline card showing the Value dropdown with a Zoho pipeline selected](https://downloads.intercomcdn.com/i/o/j01nt7mc/2227646698/3e0ec3e80ed3e01711d0f02fa6f1/Screenshot+2026-04-01+at+3_37_30%E2%80%AFPM.png)
+
+---
+
+## Step 3: Map Deal Stages
+
+1. Click the **Stage** card.
+2. Click **Map Values**.
+
+   ![Stage card with the Map Values button highlighted](https://downloads.intercomcdn.com/i/o/j01nt7mc/2227649885/bcf77e5794e86c9e708f14f78eca/Screenshot+2026-04-01+at+3_37_53%E2%80%AFPM.png)
+
+3. Map your portal phases to the corresponding Zoho stages.
+
+4. In the **On Create, set Zoho CRM Stage to** field, choose how new deals from the portal enter your Zoho pipeline:
+
+   | Option | How it works | Watch out for |
+   |---|---|---|
+   | **Static stage** | All new deals start in the same Zoho stage, regardless of the portal phase | — |
+   | **Infer from mappings** | The portal determines the starting stage based on your existing phase mappings | Avoid mapping multiple portal phases to the same Zoho stage — this can make the starting stage inconsistent |
+   | **Map manually** | You define exactly which Zoho stage maps to each portal phase | — |
+
+   ![On Create field showing the three mapping method options](https://downloads.intercomcdn.com/i/o/j01nt7mc/2227652862/483afce81f4cb6e4bafa64b9a1e3/Screenshot+2026-04-01+at+3_49_07%E2%80%AFPM+%282%29.png)
+
+   > **Note:** You do not need to map every stage. Map the key stages you want partners to follow as a deal progresses through the sales cycle.
+
+5. Click **Save** on the Stage card.
+
+---
+
+## Step 4: Map Additional Pipelines (Optional)
+
+If you want to sync more than one pipeline, map the stages for each additional pipeline separately.
+
+1. In the Stage mapping window, use the **pipeline selector on the left** to choose the next pipeline.
+
+   ![Stage mapping window showing the pipeline selector on the left side](https://downloads.intercomcdn.com/i/o/j01nt7mc/2227657468/aa5d44438c4f02e23ea8cd794000/Screenshot+2026-04-01+at+3_48_37%E2%80%AFPM+%282%29.png)
+
+2. Map the Zoho stages to the corresponding portal phases for that pipeline.
+3. Repeat for each additional pipeline.
+
+---
+
+## Step 5: Save Your Configuration
+
+Click **Save mappings** at the bottom of the main configuration page. Your Zoho integration is now active and deals will begin syncing according to the rules you have set.
+
+---
+
+## Next Steps
+
+- [Customize lead phases and deal stages](https://help.partnerportal.io/en/articles/8065753-how-to-customize-lead-phases-and-deal-stages)
+- [Customize the Lead Registration Form](https://help.partnerportal.io/en/articles/8732193-how-to-customize-the-lead-registration-form)
+
+---
+
+*PartnerPortal Documentation · Last updated: [Month Year]*

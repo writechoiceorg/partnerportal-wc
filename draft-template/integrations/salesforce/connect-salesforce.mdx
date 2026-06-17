@@ -1,0 +1,123 @@
+---
+title: "Connect and Configure the Salesforce Integration"
+description: "Learn how to connect your Salesforce account to PartnerPortal.io and map your objects, fields, and opportunity stages."
+---
+
+Connecting Salesforce to PartnerPortal.io lets you sync leads, map custom fields, and track opportunity stages — with real-time synchronization between the two systems.
+
+**Who can do this:** Admins only
+
+---
+
+## Before You Start
+
+- Admin access to PartnerPortal.io
+- Administrative access to Salesforce
+- Permissions in Salesforce to create and manage integrations
+
+---
+
+## Step 1: Enable the Salesforce Integration
+
+1. Go to the **Integrations** tab in the sidebar.
+2. Click **Enable Salesforce**.
+3. You will be prompted to log in to your Salesforce account. Enter your credentials and grant the portal access to your Salesforce data.
+
+---
+
+## Step 2: Configure Integration Settings
+
+Before mapping any objects or fields, configure the following settings to define how the integration handles your data.
+
+![Other Settings panel showing Primary Lead Object, Duplicate Handling, and Error Handling options](https://downloads.intercomcdn.com/i/o/1156254479/3975e800185197a80ad8b234/other+settings.png)
+
+**Primary Lead Object**
+Select the primary lead object for your integration.
+
+**Duplicate Handling**
+Choose how the integration responds when a duplicate is detected in Salesforce:
+
+| Option | Behavior |
+|---|---|
+| **Error** | An error occurs when trying to create the object if a duplicate is detected in Salesforce |
+| **Adopt** | The existing record is used and tracked going forward |
+
+The integration pulls all matching and duplicate rules from your Salesforce account.
+
+**Error Handling**
+Choose what happens if an object fails to be created in Salesforce:
+
+| Option | Behavior |
+|---|---|
+| **Don't Cleanup** | Previously created objects in the process are kept even if a subsequent object fails |
+| **Cleanup** | All objects created as part of the process are deleted if any one of them fails |
+
+---
+
+## Step 3: Map Objects and Fields
+
+Map fields between Salesforce and the portal to define how data flows between the two systems. This includes lead names, company names, date fields, and picklists.
+
+1. In the mapping section, use the dropdown in the grey box to select the custom object you want to map.
+2. Once an object is selected, begin mapping its fields to the corresponding portal fields.
+3. To add a new object, select the appropriate box next to or below your latest object.
+
+   ![Mapping section showing the object dropdown and field mapping interface](https://downloads.intercomcdn.com/i/o/1156209063/df5db5af81487c30c5241dee/1.png)
+
+   ![Expanded mapping view showing multiple objects being configured](https://downloads.intercomcdn.com/i/o/1156210281/23711edfa0689e76a98fc820/2.png)
+
+For each field, configure the following options:
+
+| Setting | Options | When to use |
+|---|---|---|
+| **Type** | Static Value, Portal Object, Related Object | Use **Portal Object** to map lead form fields; use **Static Value** to map the same information consistently |
+| **Object** | Lead, Partner | Select based on where the data originates |
+| **Field** | Any field on your lead registration form | Select the specific field to map |
+
+   ![Field mapping panel showing Type, Object, and Field configuration options](https://downloads.intercomcdn.com/i/o/1156220528/7f9441a185060aad23ab705e/objects+ui.png)
+
+   ![Example of a completed field mapping configuration](https://downloads.intercomcdn.com/i/o/1156249230/45e9f5ffb7552d17de8a6ccf/mappings.png)
+
+---
+
+## Step 4: Map Lead Phases to Opportunity Stages
+
+1. Create the **Opportunity** object and find the **Stage** option.
+2. Set the **Type** to **Portal Object**, the **Object** to **Lead**, and the **Field** to **Phase**.
+3. Click **Map Values**.
+4. Map your Salesforce opportunity stages to the corresponding portal phases. You can map them one-to-one or generalize them to control how much of your sales process partners can see.
+
+   ![Map Values panel showing Salesforce opportunity stages being mapped to portal phases](https://downloads.intercomcdn.com/i/o/1156227004/18c443ef906156bb1fbc6353/map+values.png)
+
+   ![Completed phase-to-stage mapping configuration](https://downloads.intercomcdn.com/i/o/1156232416/359631b6f8a9fa0cc8e0eeb3/Screenshot+2024-08-23+at+2_30_51%E2%80%AFPM.png)
+
+---
+
+## Step 5: Configure Lead Conversion
+
+Choose how leads are converted into Salesforce objects when they are approved in the portal.
+
+| Approach | How to configure | Best for |
+|---|---|---|
+| **Create all objects on approval** | Leave **Create on Lead Approval** checked for all objects | Teams that want leads, contacts, accounts, and opportunities created in Salesforce immediately |
+| **Validate in Salesforce first** | Uncheck **Create on Lead Approval** for all objects except the lead | Teams that prefer to review leads in Salesforce before converting them to opportunities |
+
+For the validate-first approach: after reviewing in Salesforce, convert the lead to accounts, contacts, and opportunities manually as needed.
+
+   ![Configuration workflow panel showing the Create on Lead Approval checkbox for each object](https://downloads.intercomcdn.com/i/o/1156224213/36c501c8894e84d11ff15e12/configuration+workflow.png)
+
+---
+
+## Step 6: Save Your Configuration
+
+Save your settings. Your Salesforce integration is now active and will begin syncing data according to the rules you have set.
+
+---
+
+## Next Steps
+
+- If you have questions or run into issues during setup, contact [support@partnerportal.io](mailto:support@partnerportal.io).
+
+---
+
+*PartnerPortal Documentation · Last updated: [Month Year]*

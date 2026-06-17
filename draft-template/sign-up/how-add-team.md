@@ -72,11 +72,4 @@ Go to Account & Settings > Team, find the PartnerPortal Support entry, and updat
 
 ---
 
-## Next Steps
-
-- [Update admin roles and permissions](https://help.partnerportal.io/en/articles/9824530-how-to-update-admin-roles-permissions)
-- [Contact support](mailto:support@partnerportal.io)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*

@@ -67,12 +67,4 @@ Program Terms cannot be customized per partner. All partners see the same terms.
 
 ---
 
-## Next Steps
-
-- [Attach signed agreements to a partner account](https://help.partnerportal.io/en/articles/6936691-sharing-resources-with-an-individual-partner)
-- [Set up your Program Details and Partner Tiers](#)
-- [Customize the partner registration form](#)
-
----
-
 *PartnerPortal Documentation · Last updated: June 2026*
