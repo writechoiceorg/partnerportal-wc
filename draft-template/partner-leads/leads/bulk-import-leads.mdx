@@ -1,0 +1,71 @@
+---
+title: "How to Bulk Import Leads"
+description: "Learn how to bulk import leads into your portal using a CSV file."
+---
+
+import { Callout } from "@/components/ui/callout";
+
+<Callout type="warning">
+  You can only import leads for **active** partners in your portal. If you don't have any partners set up yet, you won't be able to import leads on their behalf.
+</Callout>
+
+## Before you start
+
+- You must have at least one active partner set up in your portal.
+- Your CSV file must contain all **required** fields from your Lead Registration form. Optional fields won't trigger errors if missing.
+- The bulk import tool does not check for existing leads. Confirm any existing leads before uploading your CSV to avoid duplicates.
+
+---
+
+## Import a CSV
+
+1. Go to the **Leads** section in the sidebar and select the **All Leads** tab.
+2. Click **Register Lead** and select **Import CSV**.
+3. Download the CSV template provided, or upload your own file.
+
+   > We only support CSV (comma-separated values) files.
+
+4. After selecting your file, click **Import Lead**.
+5. The system will check the file for missing required fields and mark them as errors.
+
+   - If errors are found, the file will **not** import until they are corrected.
+   - Each lead must be entered as a separate row.
+
+6. Correct any errors in your CSV file and re-import.
+7. Once no errors are found, you will see a confirmation message indicating a successful import.
+8. Refresh your portal to see the newly imported leads.
+
+<Callout type="info">
+  All imported leads are placed in **Pending** status and require approval from the admin team.
+</Callout>
+
+---
+
+## Find the Partner and Partner User ID
+
+Partner and Partner User IDs are required fields when importing leads. Use them to associate each lead with the correct partner.
+
+### As an Admin
+
+1. Go to the **All Partners** tab.
+2. Select the partner and find their unique ID in their partner details.
+3. To associate a lead with a specific Partner User, scroll to the bottom of the partner's page to find the **Partner Users** list.
+4. Copy the individual user's ID from the ID column, or click the **pencil icon** to edit the Partner User and find their ID there.
+
+### As a Partner
+
+1. Go to **Account** in the sidebar and select the **Team** tab.
+2. Find the Partner User's unique ID next to their name in the ID column.
+
+<Callout type="info">
+  If you are bulk importing leads for yourself, use your own unique ID.
+</Callout>
+
+**Partner User ID is required to bulk import.**
+
+---
+
+## Next steps
+
+- [How to Customize the Lead Registration Form](https://help.partnerportal.io/en/articles/8732193-how-to-customize-the-lead-registration-form)
+- [How to Manage Leads](https://help.partnerportal.io/en/articles/6936987-how-to-manage-leads)

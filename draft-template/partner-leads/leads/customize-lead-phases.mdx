@@ -1,0 +1,62 @@
+---
+title: "How to Customize Lead Phases"
+description: "Learn how to add, delete, and set a default phase for leads in your portal."
+---
+
+import { Callout } from "@/components/ui/callout";
+
+<Callout type="warning">
+  **Closed Lost**, **Closed Won**, and **n/a** are required system phases. They cannot be edited or deleted.
+</Callout>
+
+## Customize your lead phases
+
+1. Go to **Leads** in the sidebar and select **Configure**.
+2. Scroll to the **Lead Phases** section.
+3. Click the **pencil icon** to edit your lead phases.
+
+From this section you can:
+
+- Add new lead phases
+- Delete unused lead phases
+- Set a default phase for new leads
+
+---
+
+## Delete a lead phase
+
+A phase can be deleted only if it is not currently in use.
+
+A phase **cannot** be deleted if:
+
+- A lead is currently assigned to it.
+- It is set as the default phase.
+- It is a required system phase (Closed Lost, Closed Won, or n/a).
+
+To delete a phase, click the **trash icon** next to it.
+
+<Callout type="warning">
+  If you delete a phase that is mapped to your CRM, phase updates from the CRM will no longer apply to that phase, and a CRM error will be triggered instead.
+</Callout>
+
+---
+
+## Set a default phase
+
+The default phase determines which phase new leads start in when submitted. Leads remain in this phase while in **Pending** status.
+
+To set a default phase, select the desired phase in the **Lead Phases** section.
+
+<Callout type="info">
+  If leads remain in Pending for an extended period, make sure your default phase reflects how you want those leads displayed.
+</Callout>
+
+---
+
+## Lead expiration
+
+A **Closed Lost** phase can trigger leads to expire automatically. If you prefer to expire leads manually, turn off the **"Trigger Leads to expire"** option.
+
+<Callout type="info">
+  Any phase customization connected to your CRM will only apply once a lead has been mapped.
+</Callout>
