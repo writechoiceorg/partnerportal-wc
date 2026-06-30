@@ -1,0 +1,83 @@
+---
+title: "How to Customize the Lead Registration Form"
+description: "Learn how to add fields, set visibility, create picklists, and configure lead types in your Lead Registration Form."
+---
+
+import { Callout } from "@/components/ui/callout";
+
+<Callout type="warning">
+  Some fields cannot be customized because they are required for CRM integration (for example, Lead First Name, Last Name, and Email). You can deactivate some pre-set fields, but you cannot edit their names or structure.
+</Callout>
+
+## Add a new field
+
+1. Go to **Leads** in the sidebar and select **Configure**.
+2. At the bottom of the lead fields list, click the **plus sign** to add a new field.
+3. Choose a field type: **Text**, **Numbers**, **Picklist**, or **Large Text**.
+4. Check the **Active** box to include the field on the Lead Registration Form.
+5. If the field is required, check the **Required** box. Partners must complete required fields before submitting a lead.
+6. Rearrange fields in any order as needed.
+
+<Callout type="info">
+  To learn how to submit leads on behalf of partners, refer to [this article](https://help.partnerportal.io/en/articles/7045874-submit-a-lead-on-behalf-of-a-partner).
+</Callout>
+
+---
+
+## Set field visibility
+
+You can control which users see each field on the Lead Registration Form.
+
+1. In the field's settings, go to the **Visibility** section.
+2. Select one of the following options from the dropdown:
+
+   - **All Users** — all partners and admin team members can see the field.
+   - **Internal Use Only** — only admin team members can see the field; partners cannot.
+   - **Select Partner Group(s)** — only the selected partner groups can see the field.
+
+### To set visibility by partner group
+
+1. Select **Select Partner Groups** from the dropdown.
+2. Click **Manage** to find and select the partner group(s) of your choice.
+
+<Callout type="info">
+  To use partner group visibility, you must first create partner groups. Learn how [here](https://help.partnerportal.io/en/articles/10034393-creating-partner-groups).
+</Callout>
+
+---
+
+## Create a picklist
+
+1. In the field's **Type** section, select **Picklist** from the dropdown.
+2. Click **Edit Options**.
+3. Click the **plus sign** to add picklist choices.
+4. Click **Close** when finished.
+5. Save your changes regularly to avoid losing progress.
+
+<Callout type="info">
+  To learn how to map custom fields to HubSpot, refer to [this article](https://help.partnerportal.io/en/articles/6977660-how-to-map-custom-fields-to-hubspot).
+</Callout>
+
+---
+
+## Configure the Lead Type dropdown
+
+The **Type** dropdown on the Lead Registration Form can be configured to match your use case. Common examples include:
+
+- Type of lead (for example, "New Business" or "Existing Client")
+- Type of partner
+- Location of the partner
+- Type of product
+
+To configure lead types:
+
+1. Find the **Type** field in the Lead Registration Form configuration.
+2. Click **Edit Options** to add and manage your lead types.
+
+<Callout type="info">
+  Partners can only select one lead type when submitting a lead. To allow partners to enter a different type, toggle on the **"Other option"**.
+</Callout>
+
+<Callout type="info">
+  To map leads to different pipelines based on lead types, refer to the pipeline mapping article.
+</Callout>
