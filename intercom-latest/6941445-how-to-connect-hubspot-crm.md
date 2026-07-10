@@ -1,0 +1,68 @@
+Integrating your HubSpot pipeline with PartnerPortal.io can be done in a few easy steps.
+
+1. Log in to your portal.
+
+2. On the left-hand sidebar, locate the **Integrations** section and select **Enable HubSpot**. Confirm your choice by clicking the button in the subsequent screen.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374716756/52a38bc5a5a91f88458ca05e2afd/image.png?expires=1783016100&amp;signature=06e00ff6c117846993f5166aa497264a1bde39fcd6241b78b78e9cb69fb9703a&amp;req=diMgEs5%2Fm4ZaX%2FMW1HO4zS2ZTa6GUTVu13K2OSBArWmdUCK9xMIpQyP74CTy%0Ag%2BZbP5MfyNohStFWNEc%3D%0A)
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374718035/f1d0983a2a60dc713572cae7de03/image.png?expires=1783016100&amp;signature=87054acb5626bf32c119ed9b99a50a58f8aad967dd484a8b9a84e41f7cfdb62a&amp;req=diMgEs5%2FlYFcXPMW1HO4zbTi5PdoOvQeTiOg%2BUCBp7mGrgM4AYuHKo4SdMqY%0AzbNBt1xCOpYEuSiliKw%3D%0A)
+
+3. A button will appear prompting you to **Sign in with HubSpot or Create a new Hubspot Account**. If already logged into HubSpot in your browser, you will not be prompted to log in. After logging in, select **Connect App**.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374722208/5a7db9fa9a44fd0a224202881c35/image.png?expires=1783016100&amp;signature=e38427181d482aa1affaf05b172dbeacc707e92f80a74eaea3cc7f81e6c0f267&amp;req=diMgEs58n4NfUfMW1HO4zTqm7ymdDAFZ2J%2BVKjL1Qo2aemKBYq1cX%2F2oZNM1%0A3IYVX4nA8y6fa7zN%2Fqc%3D%0A)
+
+4. A pop-up window will appear. Choose the HubSpot account you'd like to integrate (see screenshot).
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374725035/d8ee37e4bcd7f62667e2da5433b5/image.png?expires=1783016100&amp;signature=cd1f80df8369a933b119e67ee1883e015ffcd522e1e82a04c02f93b26883d063&amp;req=diMgEs58mIFcXPMW1HO4ze%2FGQSvuhYNJ9ZOtiBeDrEujtev9pIc7rhqWKh9B%0AD%2FEy5eTFX7NMppxkX3U%3D%0A)
+
+5. Once selected, your HubSpot Integration will be connected. To configure it, click the **Configure** button.
+
+# Mapping the Integration
+
+Once in the configuration screen, map your **lead registration form**. Note that the default fields will be mapped automatically. Custom fields added later will need to be mapped manually.
+​
+If connecting to **one pipeline**, find the **Pipeline object** and set the **Type** to **Static Value**. Choose the appropriate pipeline from the dropdown.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374750509/fec97af76ae9b5b512a3a512242c/image.png?expires=1783016100&amp;signature=670229e135ad918d58ff152b829c44f7eabdbc41c7de7b20f7c61ae41f61e5aa&amp;req=diMgEs57nYRfUPMW1HO4zSJoSC4SJ3m8GTt12wYaD0QYmIfQfwB1FeKjg0do%0Aj73WqxszeqN58uaG3rk%3D%0A)
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374751499/87cc1b48c174a4b1dd66adee82f4/image.png?expires=1783016100&amp;signature=b4e9292b78ac2caa382c708b1c02ec5b0cf9fc83a4a4ce4730f7e34c1d8cf075&amp;req=diMgEs57nIVWUPMW1HO4zfBptW5ZdGPmk4S%2FVeIUyP5M6j1RzspV81XN7%2FKv%0AQfRjQbOhuFOu5sZrrEA%3D%0A)
+
+Next, map your **portal phases to HubSpot deal stages**. Click the **Deal Stage object** and select **Map Values**.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374753502/219ae60361da6a812bcb451468fc/image.png?expires=1783016100&amp;signature=a184034bd5604288a6ca5e899aae893f2d9722645b4fb91a52a91b949c64fb07&amp;req=diMgEs57noRfW%2FMW1HO4zXPRPpazyV9CHZKsYHhvAqFHWBJWYF5Ge3pdnCNP%0Af2DwKY1WbYJq3dvaNzw%3D%0A)
+
+Now, map your HubSpot Stages to your desired Portal Phase.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374754901/72040a4364598cfce80912debf87/image.png?expires=1783016100&amp;signature=552eaa200392112dc86123f05c81b78097d3aec0e8061ed050db04c8e9c90bc5&amp;req=diMgEs57mYhfWPMW1HO4zdjBnNWCUbYLlW3%2FoOMJTpw6evhLVfiTQS6TZ0Cr%0Aui0H8k2asI9xovcSkMM%3D%0A)
+
+Choose how you want deals to start in HubSpot. There are a few ways you can map this:
+
+- Inferring from the mapping will allow the portal to read any mapping done and place the correct HubSpot stage based on whichever pp.io phase it is in. Please keep in mind, if you're inferring from mapping and you map 1 pp.io phases to multiple HUB stages, you will receive an error as the portal cannot correctly identify which HUB stage you want the deal to be in.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374756243/e988ada9d07902f9fb3db6582388/image.png?expires=1783016100&amp;signature=a33b2f1146c891cf78bf42458242a681df6e888533b3feb9d548e12078d3452d&amp;req=diMgEs57m4NbWvMW1HO4zRcCGR%2FZzpClSmTSApc2LbXXSO2OyHCDN12JAW24%0Abc7nT0qWr5tG59rN6bo%3D%0A)
+
+- Map manually will allow you to choose which deal stage you'd like them to start in especially if you’re not immediately mapping upon lead approval (this will also allow you to chose the stage in different pipelines)
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374757098/77371682c0e961f151cb3a36395d/image.png?expires=1783016100&amp;signature=76bece8066735a45f0aae2942ff36a1d8ff033a558953ff275aa38ed97ecde58&amp;req=diMgEs57moFWUfMW1HO4zW8FdAFoDPrjKzv%2F4Hgn%2Blf6XuaCckZoBiZptpGa%0AFKkbK79ZG2986Aqc3sI%3D%0A)
+
+- Selecting the specific stage from your pipeline
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374757547/9c64115d0742c1d6295590003873/image.png?expires=1783016100&amp;signature=f4afabde7c28d4569baa21504611e8f25edd3a3f6a97237e28131682588e7284&amp;req=diMgEs57moRbXvMW1HO4zT0xq%2BLKl3Kg377cC1PFhbFJC7yg23aDaxkff302%0A32I6DxesfQMwLpHxA%2Fo%3D%0A)
+
+Once you've finished, make sure you Save your settings.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2374758301/336d4ecbb824f7d23d437d99eebf/image.png?expires=1783016100&amp;signature=6377388665a8ef437c8d654aa47c5b0e0d78b7d64a9c02e9b9927a50dd32852e&amp;req=diMgEs57lYJfWPMW1HO4zc8LKNUvZi4NwBJkJa7vEuQ8nHdL3mRqQZ2duDTd%0AyEtmhCo%2FEcsQ1esnKJI%3D%0A)
+
+# Mapping to Multiple Pipelines
+
+For multiple pipelines, the only configuration needed is ensuring you click through your pipelines on the left-hand side of the pop-up and map **all** of those stages. You can choose to have different pp.io phases for your different pipelines as well. ie. different partners will have different portal phases based on the different pipeline
+
+Check out this [article](https://help.partnerportal.io/en/articles/8065753-how-to-customize-lead-phases-and-deal-stages) to learn how to update your portal phases.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/1226230627/76813766ce60d9d6345573f36621/Screenshot+2024-10-23+at+9_45_23%E2%80%AFAM.png?expires=1783016100&amp;signature=0d922bf744f01a62dffd7d5f7c79c1ef4bd27cecdd790dc8fdd10ab4ee931011&amp;req=dSIlEMt9nYddXvMW1HO4zZMpZmag%2BCF4sDoz6yAGsJERssjXqbveCxfkOq6z%0AnzJ4Kf68lmhvotA2Nco%3D%0A)
+
+Keep in mind that partners will see portal phases, so you can choose to map them 1-to-1 with your pipeline stages or generalize them. You don’t have to map every HubSpot stage. Make sure you press the **Save** button once you've finished all your configuration.
+​
+To learn more about mapping custom fields, take a look at this [article](https://help.partnerportal.io/en/articles/6977660-how-to-map-custom-fields-to-hubspot).
+​

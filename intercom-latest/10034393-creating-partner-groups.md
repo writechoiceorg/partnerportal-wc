@@ -1,0 +1,75 @@
+Partner Groups allow you to organize partners and control what they can access in the portal. Groups can be based on criteria such as partner type, location, tier, region, etc.
+
+# How to Create a Partner Group
+
+1. Go to **Partner Groups** under **Partners**.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362040985/106fed856ea8a7434da517a751c9/image.png?expires=1783016100&amp;signature=5a52be9cbea2607b57be90e81678fb50f85527a71db4251e26c2006ac4fa1e6d&amp;req=diMhFMl6nYhXXPMW1HO4zRIR3su5O2pvCuA6etepHbQU8R5JzSg%2B5Ds6Dw93%0AYsJP%0A)
+
+2. Click **Add Group***.*
+
+  ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362045777/0ce7d3bd90715a20bc5d3d78aa3d/image.png?expires=1783016100&amp;signature=ca49a79b55949ee8fcd0aa95a1d896d117bce0d054e77b7939be76885d8ceae3&amp;req=diMhFMl6mIZYXvMW1HO4zaBWL183glNIovKsjrtw4%2Bvg9LkOpXcv7WXFlsRa%0A4hYu%0A)
+
+3. Enter a Group Name and click **Save**.
+
+  ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362049701/34963e39bed2dd9746f266a23260/image.png?expires=1783016100&amp;signature=f125b4ebb3780ba390243d260447fba5d28f291b204c33dd63fa42b97e70d97f&amp;req=diMhFMl6lIZfWPMW1HO4zffOy%2BMjl3gDqN5tps20Yw8MPvia7UGW%2Ft0eFoUf%0A2jaO%0A)
+
+1. Select the partners you want to add to the group.
+
+  - You can search for partners by typing the **company name**.
+
+  ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362051335/699a749833f2d1a0ae6d657387f7/image.png?expires=1783016100&amp;signature=7aa20c71cd66041ff72598856a2b828d68e15e39cfd8edca309f220d58427d80&amp;req=diMhFMl7nIJcXPMW1HO4zdJaH3yuRknU9jlTYge3baS33f%2BQy68K%2BA9i9COH%0AhPm1%0A)
+
+2. Click **Save**.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362052389/30813af613affc666d636ef8fb68/image.png?expires=1783016100&amp;signature=f0c90b3cb48651282b8e9d8d8bd2087407914520f4d1997a697268a07f3c9f9c&amp;req=diMhFMl7n4JXUPMW1HO4zcafyqQd0oM7nvSi3K%2BYAKVQgefmNPaRe%2BalW65g%0Aqo%2BI%0A)
+
+## Important Notes
+
+- The *All Partners* group already exists and includes **all** approved partners.
+
+  - *New partners are automatically added to the All Partners group when approved.*
+
+- Admins must **manually** assign partners to any additional groups.
+
+- Partners can belong to multiple groups.
+
+If a partner is not added to another group, they will **only** see content available to the *All Partners* group.
+
+---
+
+# How to Edit an Existing Partner Group
+
+To update a group (for example, to add or remove partners):
+
+1. Go to the **Partner Groups** page under **Partners**.
+
+  ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362059039/de802cbdc0fe3113e837f3339db4/image.png?expires=1783016100&amp;signature=8eb1e9e6a67062a77dcc8a51314129d6dbfc3e1e1876d15b6b01aa4dfec9ec67&amp;req=diMhFMl7lIFcUPMW1HO4zVUuwxVQ9nGv8wpRLEoVfWLxjEW93BUXzTE8VVDn%0ANrHZ%0A)
+
+2. Select the group you want to edit and click on **Add or Remove Partners**.
+
+  ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362062270/492075142522804a1b4817531d72/image.png?expires=1783016100&amp;signature=b825f5159b88edab2d59977e6bd27db36bc0c03dac93e31a4300117704c3e0c1&amp;req=diMhFMl4n4NYWfMW1HO4zXQhHEF%2BTjIlq7URUZ9a13APiChOb0vzq5Ysutnw%0Aj9dG%0A)
+
+3. Add or remove partners by checking or unchecking their names.
+
+  - *Partners appear by company name.*
+
+  ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362064148/fd07da009b4f0de8211b3412b085/image.png?expires=1783016100&amp;signature=3a35994c884656ade82de2800c5c2192d198d581a9b3ae445102924ee467b511&amp;req=diMhFMl4mYBbUfMW1HO4zd4l7d3ymY4gE3kavU086X588g%2BLeWzMoyKskpBH%0A%2FO0j%0A)
+
+4. Click **Save**.
+
+---
+
+# What Can Partner Groups Control?
+
+Partner Groups determine which partners can:
+
+- View resources in the Resource Center
+
+- Access specific fields on the lead registration form
+
+To learn more:
+
+- See our guide on [setting Resource Center visibility](https://help.partnerportal.io/en/articles/6932138-setting-up-the-resource-center)
+
+- See our article on [customizing your lead registration form](https://help.partnerportal.io/en/articles/8732193-how-to-customize-the-lead-registration-form)

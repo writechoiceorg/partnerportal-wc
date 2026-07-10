@@ -1,0 +1,27 @@
+(For steps on how to map custom HubSpot fields, please check out this [article](https://intercom.help/partnerportalio/en/articles/6977660-how-to-map-custom-fields-to-hubspot))
+
+First, head to your Integrations tab and select your HubSpot settings. Click on the configuration button.
+
+*(NOTE: only Admin accounts will have access to view the Integrations tab)*
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2377217229/524b0c10b093a069fd26b70018ab/image.png?expires=1783016100&amp;signature=9dcb20f0cd3b11482b19040be633430affae73122bd7a754f0b0d4b3ec6a6819&amp;req=diMgEct%2FmoNdUPMW1HO4zdXjRJ3aqWvdlizDLgc%2FP9hQI%2B64i2EjtSLKLIYJ%0AkpXS2DKDrlijBOpJHUk%3D%0A)
+
+You'll want to scroll to the Comment/Activity Tracking field at the bottom of your *Other Settings*. Select the button to the right to toggle the feature on.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2377218219/9572ff15b987be7b9e5376d10967/image.png?expires=1783016100&amp;signature=049d1f74d43b8f4860ea74ca7fcb88f96f5f183a04862901a334ffce844ace49&amp;req=diMgEct%2FlYNeUPMW1HO4zQYiau4lOjagbm8UwXJs1L%2FJ8AviIKV1kxcSZcC4%0A8O2TACh9faXhR%2FjZP6Y%3D%0A)
+
+---
+
+Now, open any HubSpot deal mapped from PartnerPortal.io, and select *Filter Activity.* Select the PartnerPortal.io filter under Integrations. This will ensure you will have visibility on any activity.
+
+*(NOTE: Each user will have to enable this filter)*
+
+![](https://downloads.intercomcdn.com/i/o/669557402/6dcb60909a4967677e0d903f/Screenshot+2023-02-09+at+3.51.50+PM.png?expires=1783016100&amp;signature=0246473acb20349718388f66e69143d6317b2134ed7049858911f859338aea61&amp;req=ciYuE8x5mYFdFb4f3HP0gAxS2S4inNEhVEONxxN0koO7mxifoyM3RTLfaiND%0AEcLT%2Fw5lmk%2BESI2uqQ%3D%3D%0A)
+
+---
+
+### PartnerPortal.io will only start to map comments as activity **after** the deal has been mapped to HubSpot. Any comment placed on the Lead record **before** being mapped, will NOT be mapped or visible.
+
+![](https://downloads.intercomcdn.com/i/o/669556592/0455314ede63a7e4e04e4cfb/Screenshot+2023-02-09+at+4.09.33+PM.png?expires=1783016100&amp;signature=f105fe40c06a39dceab63b27c264efabb440f0c113c3d5b5fa9a513fd7217e3c&amp;req=ciYuE8x4mIhdFb4f3HP0gFWr9quP%2FRfj%2Bc4UzeG9JEmarBWg1E2v5REXl1V9%0AauIkI%2FctrthoBtFP9A%3D%3D%0A)
+
+![](https://downloads.intercomcdn.com/i/o/672467450/c48e19d816b5ec1fa924f1b3/Screen+Shot+2023-02-13+at+10.43.23+AM.png?expires=1783016100&amp;signature=f7e556ec07eb59bb4c9d2983110242f120dc32c04c1e17002e5192a3f4d825e6&amp;req=ciclEs95mYRfFb4f3HP0gHO1AVcwBq7PL19OoL4F8IMx9jB3rorHO9MUWjbv%0A2Jihc%2B6Ca02GqLTFbA%3D%3D%0A)

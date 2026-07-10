@@ -1,0 +1,23 @@
+Please note, notifications settings are unique to each individual user and cannot be disabled for another user. All notifications are enabled upon account creation.
+
+# Notification settings as an Admin Team Member
+
+To view your notification settings, head to the **My** **Account** tab on the sidebar.
+
+Locate your notification settings section and disable (toggle off) your desired setting.
+
+To enable a setting, follow these same steps and toggle on the setting to enable it.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2364598008/afbffbbcdf9c089298bf95cc9eca/image.png?expires=1783016100&amp;signature=4febee1df4e512348f6e3995d739ce5edd0bf5b95934870983a44d9c60f2b9f6&amp;req=diMhEsx3lYFfUfMW1HO4zcqspgvOEWI9H4UfDSeTLiK0vOGWR4TN81neH6gy%0APwUOQ8qzaDpzzpYQOJ4%3D%0A)
+
+---
+
+# Notification Settings as a Partner
+
+To view your notification settings, head to the **My** **Account** tab on the sidebar.
+
+Locate your notification settings section and disable (toggle off) your desired setting.
+
+To enable a setting, follow these same steps and toggle on the setting to enable it.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2364600189/32c33363b4bdf5a662282c96f6e1/image.png?expires=1783016100&amp;signature=beb733fdd592d0db138e332e984622aa83097a1006b3aef1577b177e0b91f1aa&amp;req=diMhEs9%2BnYBXUPMW1HO4zd66689qASmiOZ9vtJGVVxim%2Fq9Qr1X7npnx%2Fx%2Ff%0AbSQKOP6%2BtgVTVsijW4c%3D%0A)

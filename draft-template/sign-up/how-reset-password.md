@@ -32,19 +32,19 @@ companyname.partnerportal.io
 1. Enter your **email address** on the login screen.
 2. Click **Next**.
 
-![Login screen with email field](https://downloads.intercomcdn.com/i/o/j01nt7mc/2159917747/69d3a7a99abe456be70d7efbc71a/Screenshot%2B2023-12-11%2Bat%2B9_10_52-E2-80-AFAM.png)
+![Login screen with email field](https://downloads.intercomcdn.com/i/o/j01nt7mc/2388370605/6a91440b733aa04dd2cdedfebaee/image.png?expires=1782843300&signature=50ec27e100bca9ef19b156b2f65a40842eed5ad7acbfe32899fb17ed4e20ebc1&req=diMvHsp5nYdfXPMW1HO4zdVaF6PCmswF6lD4aCe%2BPUjw0EnUDGOuiOaxHQsw%0ANKOA%0A)
 
 *Figure 1 — Enter your email address and click Next to continue.*
 
 ---
 
-## Step 3 — Select Forgot Password
+## Step 3 — Select Reset Password
 
-In the pop-up window that appears, select **Forgot Password**.
+In the pop-up window that appears, select **Reset Password**.
 
-![Pop-up with Forgot Password option](https://downloads.intercomcdn.com/i/o/j01nt7mc/2159934440/1bbb627d2395b1e4f27e9e356628/Screenshot-2B2023-12-11-2Bat-2B9_12_17-E2-80-AFAM.png)
+![Pop-up with Reset Password option](https://downloads.intercomcdn.com/i/o/j01nt7mc/2388372600/0cb05cecc9952bd2c9b2cfa6e44d/image.png?expires=1782843300&signature=7f768eb832a50e93efdea579da272b84097dfaae628b18f9dc764ea6ff83f41d&req=diMvHsp5n4dfWfMW1HO4zRUgmvcXuz9AJcirEePgpfwLig1fFuQ5v2XAKJV%2F%0AAf50%0A)
 
-*Figure 2 — Select Forgot Password in the pop-up to request a reset link.*
+*Figure 2 — Select Reset Password in the pop-up to request a reset link.*
 
 ---
 
@@ -52,7 +52,7 @@ In the pop-up window that appears, select **Forgot Password**.
 
 Your email address will be pre-filled automatically. Click **Continue** to send the reset link to your inbox.
 
-![Continue button to request reset link](https://downloads.intercomcdn.com/i/o/j01nt7mc/2159938187/385ff3d3e3c796a0b26c3151ebde/Screenshot-2B2023-12-11-2Bat-2B9_13_39-E2-80-AFAM.png)
+![Continue button to request reset link](https://downloads.intercomcdn.com/i/o/j01nt7mc/2388375434/3e817f98420ebe2682d3e08e176d/image.png?expires=1782843300&signature=2666ca101a561a40ab49c095969a52a87b6628bcc0ec8656d8db0c94762a33aa&req=diMvHsp5mIVcXfMW1HO4zZGItJCxVB8X2xQVjbAxuY%2FnsFXOUkR5ynwhXkar%0AXHCB%0A)
 
 *Figure 3 — Your email is pre-filled. Click Continue to request the password reset email.*
 

@@ -1,0 +1,63 @@
+You can map to multiple pipelines in HubSpot based on the lead type, which is set up as a drop-down field on your lead registration form. This allows you to route leads to different pipelines depending on specific criteria, such as the type of lead, partner, location, or product.
+
+## Step 1: Set Up Lead Types in Your Registration Form
+
+To begin, create your lead types on your lead registration form by heading to the **Configure** tab under the **Leads** section of the sidebar menu. Click on the ***Edit Options*** button next to *Type*.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2377382132/8deebc4a0e38a6618319e74d0a9f/image.png?expires=1783016100&amp;signature=f99b5a10d4dd3c616b1df0ddd5969d5daea49b3370b604a7680ee01b68ba49f2&amp;req=diMgEcp2n4BcW%2FMW1HO4zciCl1gLcn6hvU0Nk1xor9Mt0y5bqSNjrbX%2FIQnE%0ABEdI1NqDRKQ%2BE8q%2Bzyw%3D%0A)
+
+Begin adding your Lead types by click the plus button.
+
+The drop-down field should be configured to match your use case. Common examples of lead types are:
+
+- Type of lead (e.g., "New Business" vs. "Existing Client")
+
+- Type of partner
+
+- Location of the partner
+
+- Type of product
+
+## Step 2: Map Lead Types to Pipelines
+
+After setting up the lead type, you’ll need to map the pipelines in HubSpot according to the lead type.
+
+1. Navigate to your **Integrations** tab and go to the **Settings** section under HubSpot.
+
+2. Click **Configure** to open your pipeline mapping options and click on the ***Pipeline*** object and make the following changes:
+
+  1. Set the **Type** *to Portal Object*
+
+  2. **Set the Field to *Type***
+
+3. Click Map Values
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2377383570/04e772a03b1508232b19a1466948/image.png?expires=1783016100&amp;signature=0bb0c9cdc3f93e6823ffc0405201cdb7db2164e0a00e3f712ef537565f7f19c6&amp;req=diMgEcp2noRYWfMW1HO4zftclTWqVZ05EBp1ua4%2FtExihXNcuH4ts7EnYXry%0ATrnShSL%2B9uM70hncJbs%3D%0A)
+
+1. Please make sure you select the map manually option for the *On Create set HubSpot Pipeline to* field. This ensures that when a lead is created or updated in PartnerPortal.io, it is automatically routed to the correct HubSpot pipeline based on the lead type.
+
+2. Now, for each lead type, select which corresponding HubSpot pipeline you want it mapped to by clicking on the drop-down next to each option.
+
+3. Press the Save button when mapping is done.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2377385350/2aa8bcd9b87914b7faf3163f9d65/image.png?expires=1783016100&amp;signature=b582ef3322b9719124813ca26588a43f08a9bcae4f2b1280e79938df8032d7ac&amp;req=diMgEcp2mIJaWfMW1HO4zctb4dFqfmzqnbFtjSlrghuFuNxDlyf6GCsJ5Qxz%0AG0zf1hfUl5JepnSH%2Bbw%3D%0A)
+
+## Step 3: Mapping Deal Stages for Dynamic Pipelines
+
+Once you've mapped your pipelines based on lead type, you need to map the deal stages as the pipeline is sourced from the Deal Type.
+
+1. Find the **Deal Stages** object above and select the ***Map Values*** button.
+
+  1. ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2377386412/5a06b148c95ad1080c18173f2d84/image.png?expires=1783016100&amp;signature=50ed76bb2bdc07a0bfb73b979e9cf15ee868cb8796e848dd9c02d5f4f51349a2&amp;req=diMgEcp2m4VeW%2FMW1HO4zRWE8qSgr8myqDloIcE0oQ21V9Y1X6uzh3fGJav3%0Adewn%0A)
+
+2. Before doing any mapping, please ensure you select the deal stage that all deals should start in HubSpot. (we recommend using the Map Manually option to ensure the mapping is set to your liking)
+
+3. Now, grouping the deal stage mappings according to the lead type. You can select through each type on the left-hand side and map the portal phases to your desired HubSpot stages and pipeline.
+
+4. In the section *When HubSpot Deal is changed* ensure that when the mapping is done for all pipelines, that will update the portal phase for partners anytime you move deal stages in HubSpot.
+
+Now, the correct deal stages will be created or updated in HubSpot based on the lead type and corresponding pipeline.
+
+## Step 4: Use the "Copy to All" Feature
+
+If you have several lead types and want to use the **same** deal stage mapping for multiple pipelines, you can use the **Copy to All** button. This will automatically copy the mapping values to all your lead types, saving time when you have numerous lead types to map.
