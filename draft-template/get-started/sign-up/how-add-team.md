@@ -16,11 +16,10 @@ Grant the PartnerPortal support team access to your portal so they can assist wi
 ## Step 1 — Open the Team Settings
 
 1. Log in to your portal.
-2. Go to **Account & Settings**.
-3. Select the **Team** tab.
-4. Click **Add Team Member** in the top-right corner.
+2. Navigate to **Team** under **Portal Settings**.
+3. Click **Add Team Member** in the top-right corner.
 
-![Team tab with Add Team Member button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2159899673/c126a9806e363229e2bcdecafd26/Screenshot+2026-03-13+at+9_31_17%E2%80%AFAM+%282%29.png)
+![Team tab with Add Team Member button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2361735818/ebd4242e9122f7e52509c52aab1f/image.png)
 
 *Figure 1 — The Add Team Member button is located in the top-right corner of the Team tab.*
 

@@ -46,7 +46,7 @@ If you do not want to use Program Terms, or prefer to send partners individual t
 2. Select the **Program Terms** sub-tab.
 3. Toggle **Enabled** off.
 
-![Program Terms toggle](https://downloads.intercomcdn.com/i/o/j01nt7mc/2169174626/bcde38a96a169ba6f279d08df157/Screenshot+2026-03-16+at+12_02_11%E2%80%AFPM+%282%29.png)
+![Program Terms toggle](https://downloads.intercomcdn.com/i/o/j01nt7mc/2512300447/dc055f1fa73c02208b9829011a08/image.png?expires=1783814400&signature=f4da8cd228de39e8df02ca2ab9cd10e238d940ee967eb7573effbf9acbdc4089&req=diUmFMp%2BnYVbXvMW3nq%2BgY0%2F%2ByqPtvjcU9JBDeyEPGPwZ4DmatqKVuGGmSfX%0Aqe7AvVyNzLml61CUHkieKd3AwEg%3D%0A)
 
 *Figure 2 — Use the Enabled toggle to turn Program Terms on or off.*
 

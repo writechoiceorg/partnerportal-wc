@@ -1,0 +1,107 @@
+---
+title: "How to connect Salesforce"
+description: "This guide provides the steps to connect Salesforce."
+---
+
+Ensure you have administrative access to both Salesforce and the portal. Also, verify that you have the necessary permissions in Salesforce to create and manage integrations.
+
+# **Enabling Salesforce Integration**
+
+1. Navigate to the **Integrations** tab in the sidebar.
+
+2. Select the **Enable Salesforce** button.
+
+3. You’ll be prompted to log in to your Salesforce account. Enter your Salesforce credentials and grant the portal access to your Salesforce data.
+
+# **Configuring the Integration**
+
+After successful authentication, follow these steps to configure your integration to map fields between Salesforce and the portal by setting up real-time synchronization and defining lead assignment rules.
+
+Map fields such as lead names, company names, date fields, and pick lists to align with how you want data to flow between the systems.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2411425359/e41bdd6de541e5e2103eb32db9a9/salesforce-settings-screen.png?expires=1783016100&amp;signature=a2909f2c30eb23398fc17801f0b41389d37a22c5331d7591fb976e334d3c2b92&amp;req=diQmF818mIJaUPMW1HO4ze1TWFAggfZ%2BiJl0rIJDzVZv%2B4CCPFF6fxq%2Fpiu1%0APg%2BilxFkalovcq%2FbB9s%3D%0A)
+
+# Mapping Custom Objects
+
+1. **Mapping Fields**
+
+  1. Map fields between Salesforce and the portal by setting up real-time synchronization and defining lead assignment rules.
+
+  2. Map fields such as lead names, company names, date fields, and pick lists to align with how you want data to flow between the systems.
+
+2. In the mapping section, use the dropdown in the grey box to select the custom objects you'd like to map.
+
+3. Once a custom object is selected, begin mapping various fields. This includes mapping portal objects to Salesforce, such as fields in your lead registration form.
+
+4. To add a new object, select the appropriate box next to or below your latest object.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2411426072/bdd5e87195e2069923b0f3a6fbb7/salesforce-add-object.png?expires=1783016100&amp;signature=24d6e7a8762192f8635aa0810a98d87446a7715d4d8e8cb87b4761d14baa23fe&amp;req=diQmF818m4FYW%2FMW1HO4zbeNe6pZaUJREo8tKjyLM7ehMkGmVbLddxmz3rsY%0AWh%2FsqTbtaLARapkdguM%3D%0A)
+
+**Mapping Options:**
+
+- **Type:** Choose between Static Value, Portal Object, or Related Object.
+
+- **Object:** Select from options like Lead or Partner.
+
+- **Field:** Choose any field on your lead registration form.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2411428524/60651503a06aa4a6c8900481a1f9/salesforce-configure-screen-2.png?expires=1783016100&amp;signature=3985f3606a5ecdf122a3b04e117b897dcc3803269089372a5e3ecfd3179b42cf&amp;req=diQmF818lYRdXfMW1HO4zQ%2FENlno0mPGODvTnPm7EcXmvpifT06E%2F90MkyPb%0AR9dfJHl%2FqeyfRYZXcMo%3D%0A)
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2411434134/66f18d31ac9255d82d8e6176e7ce/salesforce-opportunity.png?expires=1783016100&amp;signature=7558ee9b75771150854b2b72d26466eb83efa33bc3747216607921843c7e67b6&amp;req=diQmF819mYBcXfMW1HO4zYbVxKhfdCCnZ8UFbRPaF%2F4EQigAqtLSruXaW7tW%0AOmIrUOExy7%2FoG2ZSpq4%3D%0A)
+
+When mapping lead registrations, select **Portal Object** as the Type, **Lead** as the Object, and then choose the Field you want to map. Use **Static Value** to map the same information consistently.
+
+# Mapping Lead Phases and Opportunity Stages
+
+1. Decide on the visibility you'd like your partners to have during the opportunity cycle.
+
+2. Create the **Opportunity** object and find the **Stage** option.
+
+3. Set the Type to **Portal Object**, the Object to **Lead**, and the Field to **Phase**. Then, click **Map Values**.
+
+4. Map your opportunity stages to the portal phases. You can choose to map them one-to-one or generalize them so that partners don’t see the full details of your sales process.
+
+*For more information on creating custom lead phases, refer to this article.*
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2411654109/9625351a949b82e3314f45f4c7d6/salesforce-create-on-approval.png?expires=1783016100&amp;signature=cb599356848ee9e0cfed7559d0818431985c229e35c950ed1c2551ed8741c10c&amp;req=diQmF897mYBfUPMW1HO4zWGhreH6UMACFw0UGxTkA8s11uyax2Gena5Gq%2FaR%0A5Z%2B5zW84ZOVwrvni4cM%3D%0A)
+
+![](https://downloads.intercomcdn.com/i/o/1156232416/359631b6f8a9fa0cc8e0eeb3/Screenshot+2024-08-23+at+2_30_51%E2%80%AFPM.png?expires=1783016100&amp;signature=57085d315527707455d9dfa3c47b07b55dbf79d8a9e42c754678fa1d3ef7c480&amp;req=dSEiEMt9n4VeX%2FMW1HO4zfVKoM31aE7BDeU5t%2BNSzEtHY3cb7qoTLu%2BshPaY%0A%2B8CsuxoCbX8ucs0CzKc%3D%0A)
+
+# Lead Conversion
+
+You can customize your lead conversion process:
+
+1. If you prefer to validate leads in Salesforce before converting them into opportunities, configure the integration to create only a lead object initially.
+
+2. To do this, uncheck the **Create on Lead Approval** field for all objects except for the lead.
+
+3. Later, convert leads to accounts, contacts, and opportunities in Salesforce as needed.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2411656519/12652ac12fadec6ec210167366e8/salesforce-other-settings.png?expires=1783016100&amp;signature=61e83a3a2dea69f6060e25ede51da6d2141f7015e9b1ebabaad633963b89495c&amp;req=diQmF897m4ReUPMW1HO4zS8ApAGJZ4CLCIWqSwMlnHMN7cWpTOwobSiFy2rD%0A4vrwhHMA%2FWp3H80u5c8%3D%0A)
+
+# Other Integration Settings
+
+Before beginning any mapping, you'll want to determine the integration settings.
+
+**Primary Lead Object:**
+
+- Select the Primary Lead object for your integration.
+
+**Duplicate Handling:**
+
+- Choose between **Adopt** or **Error** when mapping.
+
+- **Error:** If a duplicate is detected in Salesforce, an error will occur when trying to create the object.
+
+- **Adopt:** The existing record will be used and tracked going forward.
+
+Our integration will pull all matching and duplicate rules from your Salesforce account.
+
+**Error Handling:**
+
+- **Don’t Cleanup:** If any object fails to be created in Salesforce, any previously created objects in the process will not be deleted.
+
+- **Cleanup:** If an object fails to be created, all objects previously created as part of the process will be deleted.
+
+
+For any questions, feel free to reach out to our team at [support@partnerportal.io](mailto:support@partnerportal.io).

@@ -20,36 +20,32 @@ Organize partners into groups to control what content and fields they can access
 
 ### Step 1 — Open Partner Groups
 
-1. Go to **Account & Settings**.
-2. Select the **Partners** sub-tab.
+1. Go to **Partner Groups** under **Partners**
 
-![Account and Settings Partners sub-tab](https://downloads.intercomcdn.com/i/o/j01nt7mc/2169190103/794ac1c4169aa6aa583c1559ae3c/Screenshot%2B2024-10-23%2Bat%2B2_10_47-E2-80-AFPM.png)
+![Partner Groups in Partners sub-tab](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362040985/106fed856ea8a7434da517a751c9/image.png)
 
-*Figure 1 — Access Partner Groups from Account & Settings > Partners.*
-
-> 💡 **Tip:** You can also reach this page by selecting **Manage Partner Groups** from the Resource Center.
-
-![Manage Partner Groups from Resource Center](https://downloads.intercomcdn.com/i/o/j01nt7mc/2169190424/49e82264ccb6995cf52b6e450d28/Screenshot%2B2024-10-23%2Bat%2B2_10_16-E2-80-AFPM.png)
-
-*Figure 2 — Alternative path to Partner Groups through the Resource Center.*
+*Figure 1 — Access Partner Groups from Partners.*
 
 ---
 
 ### Step 2 — Create the Group
 
-1. Click **Create New Partner Group**.
+1. Click **Add Group**.
 
-![Create New Partner Group button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2169191057/406f7658eb629b0146e33e539f7b/Screenshot%2B2024-10-23%2Bat%2B2_12_43-E2-80-AFPM.png)
+![Create New Partner Group button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362045777/0ce7d3bd90715a20bc5d3d78aa3d/image.png)
 
-*Figure 3 — The Create New Partner Group button on the Partner Groups page.*
+*Figure 3 — The Add Group button on the Partner Groups page.*
 
-2. Enter a **Group Name**.
-3. Select the partners you want to add to the group. You can search by **company name**.
-4. Click **Save**.
+2. Enter a Group Name and click **Save**.
 
-![Group creation form with partner selection](https://downloads.intercomcdn.com/i/o/j01nt7mc/2169191682/82187192390653817172a99375a6/Screenshot%2B2024-10-23%2Bat%2B2_13_25-E2-80-AFPM.png)
+![Form field for new group name](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362049701/34963e39bed2dd9746f266a23260/image.png)
 
-*Figure 4 — Enter a group name and select partners to add. Search by company name to find partners quickly.*
+1. Select the partners you want to add to the group. You can search by **company name**.
+2. Click **Save**.
+
+![Group creation form with partner selection](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362051335/699a749833f2d1a0ae6d657387f7/image.png)
+
+*Figure 4 — Select partners to add. Search by company name to find partners quickly.*
 
 ---
 
@@ -60,23 +56,31 @@ Use this flow to add or remove partners from a group you have already created.
 ### Step 1 — Open the Group
 
 1. Go to the **Partner Groups** page from the **Resource Center** or **Account & Settings**.
-2. Select the group you want to edit.
+2. Select the group you want to edit and click **Add or Remove Partners**.
+
+![Add or Remove Partners button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362062270/492075142522804a1b4817531d72/image.png)
+
+*Figure 5 — Select the group and click Add or Remove Partners.*
+
 3. Click the **Pencil icon**.
 
-![Edit group pencil icon](https://downloads.intercomcdn.com/i/o/j01nt7mc/2169197237/b791935eb3db3f51fa7fc7bed4b0/Screenshot%2B2024-10-23%2Bat%2B2_14_07-E2-80-AFPM.png)
+![Edit group pencil icon](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362052389/30813af613affc666d636ef8fb68/image.png)
 
-*Figure 5 — Click the Pencil icon next to the group you want to update.*
+*Figure 6 — Click the Pencil icon next to the group you want to update.*
 
 ---
 
 ### Step 2 — Update Partners
 
 1. Add or remove partners by checking or unchecking their names. Partners appear listed by company name.
+
+![Partner selection in group edit view](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362064148/fd07da009b4f0de8211b3412b085/image.png)
+
+![Partner selection updated](https://downloads.intercomcdn.com/i/o/j01nt7mc/2362059039/de802cbdc0fe3113e837f3339db4/image.png)
+
+*Figure 7 — Check or uncheck partners to update group membership.*
+
 2. Click **Save**.
-
-![Partner selection in group edit view](https://downloads.intercomcdn.com/i/o/j01nt7mc/2169200330/553d6efdf5f2108fee4e8f6c1831/Screenshot%2B2024-10-23%2Bat%2B2_14_31-E2-80-AFPM.png)
-
-*Figure 6 — Check or uncheck partners to update group membership.*
 
 ---
 

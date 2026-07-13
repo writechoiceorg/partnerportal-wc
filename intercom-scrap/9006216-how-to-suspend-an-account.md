@@ -1,0 +1,45 @@
+There are various reasons why you may want to restrict access to your portal- the user left the company or the partnership has ended. As an Admin, you have the option to Suspend a user.
+
+Please note, that we **don't** currently support account deletion.
+
+---
+
+# Suspending a Team Member's Account *(only as Portal Admin or Portal Owner)*
+
+If one of your team members needs to be suspended in the portal, head to your **Team** tab under **Portal Settings**. Find the respective staff account and click on the edit button next to their name.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2365637961/d4cee283b5888db8f3af43fa2896/image.png?expires=1783016100&amp;signature=c13007c7df3eddc4b0e6373b405ebe078197ddf63f1f14ea248455c64ea56b77&amp;req=diMhE899mohZWPMW1HO4zUBBFXmdGe0fkScuT3EZ%2BYPGnZVle07PhphVzGXa%0AfqBwPsbNli56VU2faFU%3D%0A)
+
+In the pop-up window, find the status drop-down that should be in the Active status. Click on the drop-down and select the **Suspended** status.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2365640525/25055cbc43d7a704e51e0c14992b/image.png?expires=1783016100&amp;signature=793402c531f3eedce9ba8e9c6fa423e8ac5538f8861d51b2e080a0fa25f31662&amp;req=diMhE896nYRdXPMW1HO4zahHUjHcqtOzEJMrlPexm%2Bgg6xYRQSOQayqT3chF%0A4kLkCPrWPVdZrlTvxkQ%3D%0A)
+
+---
+
+# Suspending a Partner Account (by Admin team)
+
+If one of your Partners needs to be suspended in the portal, head to your **All** **Partners** tab under **Partners** and click on the respective Partner account.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2365649689/723c8bd18733977eba6d68dc1172/image.png?expires=1783016100&amp;signature=5191ee14b6b5193d9544536d073c668031e7e6679e0e9209fa336ea812ca80d4&amp;req=diMhE896lIdXUPMW1HO4zd9IhkB6KkzBsoi5LaoVyuyQjDuPVrhHXJehDAHP%0AgxY%2B8h%2BhJHPCZsquoDA%3D%0A)
+
+Near the top left corner, you'll find the status box with a drop-down that should be in the Active status. Click on the drop-down and select the **Suspend** status.
+
+*NOTE: Both the Decline and Suspend status will restrict access to the portal.*
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2365652539/5c60c2781c8e57a1820ed692d576/image.png?expires=1783016100&amp;signature=9e544c3745831618b64c8d307bd356d8f5735cd100a70a040bbc96a7599e7c81&amp;req=diMhE897n4RcUPMW1HO4zfSW0qsOOooiKkfBYSRuGtEH6BgUqz0t0VIpWMba%0AEwXnNlKW%2Bfb4jDVTHtc%3D%0A)
+
+---
+
+# Suspending a Partner User (by Admin team)
+
+If a Partner User needs to be suspended in the portal, as the Admin team you can restrict their access to your portal. Head to your **Partners** tab and select the respective Partner Account. Scroll to the bottom to find the **Partner Users** section. Select the edit button next to the respective user's name.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2365655065/f47c340659e9c2c5aad5959f038c/image.png?expires=1783016100&amp;signature=d68879713bbcf32914416f82233e78c86b7604839aad7521c7ac2a8585225fd1&amp;req=diMhE897mIFZXPMW1HO4zS9a3GtF3bKqPSO3w9Xyf%2BjvMHvUG46RSftLyQ7I%0AmvO69RmecvTIf5tZEoc%3D%0A)
+
+In the pop-up window, find the status drop-down that should be in the Active status. Click on the drop-down and select the **Suspended** status.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2365656481/79429bb0dd4ae02f5a8dee6fe389/image.png?expires=1783016100&amp;signature=d5a0ba49a73094a461998d7a92325575acc72cbecd95f7d7241111a826dcab8e&amp;req=diMhE897m4VXWPMW1HO4zZSDXn80XjQYgkX9IqwvP9n%2BcrkLflYlXMdSnK0Q%0A%2FkGL5zPF3jC8%2B23kDHk%3D%0A)
+
+NOTE: All suspended users will receive an email notification informing them of the suspension.
+
+*For information on How to Suspend a Partner User as a Partner, check out this [article](https://help.partnerportal.io/en/articles/9011215-how-to-suspend-a-team-member-s-account).*

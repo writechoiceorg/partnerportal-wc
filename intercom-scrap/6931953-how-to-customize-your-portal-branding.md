@@ -1,0 +1,86 @@
+Before inviting partners to your portal, it’s recommended to set up your branding. This includes updating your **colors, logo, and overall styling** so your portal reflects your company’s identity.
+
+# Access Branding Settings
+
+1. Go to **Portal Styles** under **Portal Settings** in the sidebar.
+
+All branding and customization options can be managed here.
+
+---
+
+## Customize Colors
+
+You can update various elements of your portal, including:
+
+- Background colors
+
+- Text and link colors
+
+- Button colors
+
+- Status indicators
+
+## How to Change Colors
+
+1. Click on the Pencil icon on the top right corner of the Colors section.
+
+  ![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2364648072/f53ebceaf5e1a9fe0d376a634672/image.png?expires=1783016100&amp;signature=f0e1fbefef41a652c168b45a52d1d24f9f1913ed0440364305d60c456dbf5f86&amp;req=diMhEs96lYFYW%2FMW1HO4zc9FhTghkZOICsBcf7JljLbHb7lRFTtL3Bac%2FBi1%0AoCDS%0A)
+
+2. Enter a Hex **or** RGB color code in the input field
+​**or**
+
+3. Click the color box to open the color picker and select a color
+
+You’ll see a live preview of your changes at the top of the page.
+
+- Click *Save* once you're done.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2364648379/077b108b7d5ac193e04e43858c9b/image.png?expires=1783016100&amp;signature=2bc6c7b2bf9ce8b76116f3c1545cf88ccd0430c3dbcb3f9819b8cb42960b5835&amp;req=diMhEs96lYJYUPMW1HO4zTEQZ2F4Geiudar8IZQqfvFSwjB8zq1h8cdAhgw7%0AQw8KuJgG62Lr1KYdwMg%3D%0A)
+
+---
+
+## How Colors Are Used
+
+- **Color 1 (Primary Color):**
+
+  - Used for the sidebar, sign-in page, and links
+
+- **Color 2:**
+
+  - Lead Phase: Consulting
+
+  - Opportunity Phase: Interested
+
+  - Payment Status: Scheduled
+
+- **Color 3:**
+
+  - Lead Phase: Prospecting
+
+- **Color 4:**
+
+  - Lead Phase: Lost
+
+  - Opportunity Phase: Lost
+
+---
+
+## Upload Your Logo
+
+To add your company logo:
+
+1. Scroll to the bottom of the **Portal Styles** page
+
+2. Click the *Pencil* icon to edit and upload your logo file
+
+  1. You'll need to upload 2 logos (over white and over primary color)
+
+3. Upload your favicon.
+
+**Note:** All uploads must be in **.png format**
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2364650456/738e29cef551ce7ac84b40f56386/image.png?expires=1783016100&amp;signature=b2cae4c5d713c8d493890c848e80802cb00fe3d619ea3eedc975855ff96c97ec&amp;req=diMhEs97nYVaX%2FMW1HO4zStgdaeIn6KeaNVnNmbw7oizvpNhKZdO4iQSFlcS%0AkLyqj27TznBZDSJunGw%3D%0A)
+
+---
+
+Once your branding is set up, your portal is ready for you to start inviting partners and managing leads and deals.

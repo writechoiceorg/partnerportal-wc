@@ -1,0 +1,86 @@
+---
+title: "Understanding Revenue and Commission"
+description: "In this article, we’ll be reviewing the Lead, Payment, and Partner fields and how they are related."
+---
+
+# Lead
+
+Leads contain important revenue and commission data. Some values sync from your CRM (if connected), while others are automatically calculated within the platform.
+
+## Close Value
+
+- Editable until the Lead is connected to a CRM.
+
+  - Once connected, this value syncs from the CRM and becomes read-only in the portal.
+
+- If not connecting to a CRM, this is can be edited manually in the portal once the lead has been approved.
+
+NOTE: Close Value is for reference only. It is **not** used to calculate commissions.
+
+## Total Revenue (Lead Level)
+
+- The sum of all **Revenue** entries in the Lead’s *Revenue History*.
+
+- Revenue can be:
+
+  - Manually entered, or
+
+  - Generated using the Payment Scheduler with your Accounting integration.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2405659053/53d45767cb754aa0eef98ce48d22/image.png?expires=1783016100&amp;signature=66ceb9404457236079f7996a109cc63e7365db82cf5724d04f48d626ddc2448f&amp;req=diQnE897lIFaWvMW1HO4zdvA3WDZXAMyIMvHveZzXMy7MurkmuZCETeh7%2Fjt%0A1Ukr2d%2Bs5vjT7X3Lexc%3D%0A)
+
+## Total Commission (Lead Level)
+
+- The sum of **all** Commission Amounts in the Lead’s *Revenue History*.
+
+- Represents the total commission paid to the Partner for ***that*** specific Lead.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2405662478/b4fdb6e96b02f9ddfd8c37f57247/image.png?expires=1783016100&amp;signature=158c8d4028262ce5c7eb778482d4e11ce67be9fca7682ceb83ea8fcf1ae7a103&amp;req=diQnE894n4VYUfMW1HO4ze6OGLifjeZ20bkG34hFZXVDhFBXGnMLWkgwUmFs%0AX4B7ZhNrMuNWIvO1AN4%3D%0A)
+
+---
+
+# Commissions
+
+As Leads generate revenue, Partners earn commissions. Each commission payout is recorded as a **Payment** in the Lead’s Transaction Log.
+
+## Revenue (Payment Level)
+
+- The revenue amount used to calculate **that** specific Payment.
+
+- Can be:
+
+  - Manually entered, or
+
+  - Automatically calculated via Accounting integration based on the Payment’s Start and End dates.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2405675928/eeb36d15b2246e891fcadca2b939/image.png?expires=1783016100&amp;signature=d63c038ced2e0568e3e86046e4010bd7f2cf7200e6703487ebf16979f9c318de&amp;req=diQnE895mIhdUfMW1HO4zUODR0Th7Pw%2BgjEG5dMSOmVe%2FSHHmqPNuOt51AXP%0AOKMMWuDTHs%2Bix2WFMfs%3D%0A)
+
+## Commission Types
+
+Payments can be structured in several ways:
+
+- **Fixed Amount** – A flat dollar amount (e.g., $50, $100).
+
+- **Recurring Percentage** – A percentage paid on a recurring schedule (monthly, quarterly, annually).
+
+- **One-Time Percentage** – A percentage paid once.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2124045154/b9dd52402a18114314fb58d1d73c/Screenshot+2026-03-03+at+12_04_08%E2%80%AFPM+%282%29.png?expires=1783016100&amp;signature=94bb6a7c99d24a0666ca02081e29fc75ed5be7d696e76858b334548537a1c742&amp;req=diElEsl6mIBaXfMW1HO4zaaZjcxQbE%2BqTV93BG9O%2BTelJQkQv9njskoSx2mt%0AothmyEb3DkWCur15Tjw%3D%0A)
+
+## Payment
+
+- The actual commission paid to the Partner.
+
+- Automatically calculated based on the Total Revenue and the commission structure.
+
+---
+
+# Partner
+
+## Total Revenue
+
+- The lifetime total revenue from all Leads submitted by that Partner.
+
+![](https://downloads.intercomcdn.com/i/o/j01nt7mc/2405678863/405de2f54cb0dccba5d28b561e6f/image.png?expires=1783016100&amp;signature=fedde5e2e3da1c3ca11234736ba157ce22e202736cfe6148dbf20cd3e3750789&amp;req=diQnE895lYlZWvMW1HO4zSDaAfUESndsjSIe8Du%2FDZAQHeLW6zWorqqW26vO%0AMZRntjF5wORzF8045%2BY%3D%0A)
+
+To view each partner's total revenue, click on the desired partner company in your **Partners** tab.

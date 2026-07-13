@@ -49,13 +49,13 @@ You can include this link in a welcome email or onboarding communication explain
 
 Once the partner opens the registration link, they will see a sign-up form. All fields are required — the partner must fill in the entire form before submitting.
 
-![Registration form screenshot](https://downloads.intercomcdn.com/i/o/j01nt7mc/2168900977/698981142f33495770da221b60f4/Screenshot+2026-03-16+at+10_38_20%E2%80%AFAM+%282%29.png)
+![Registration form screenshot](https://downloads.intercomcdn.com/i/o/j01nt7mc/2388394489/263c25fd269fde70bc27b8bc7283/image.png?expires=1782972000&signature=b538bd28876bb5bfcc369501f51b020549b89a76b6844f53b61318a8b0ec59e7&req=diMvHsp3mYVXUPMW3nq%2BgZ8yDuRK0FLjOek4Fi6dEjriqsKHquS6glJtIdHp%0ANYU7j465dAJBf07yg2cWXBqfeLg%3D%0A)
 
 *Figure 1 — Partner registration form. All fields must be completed before submitting.*
 
 Partners can also access this form from the sign-in page by clicking **Become a Partner** under the Register section.
 
-![Sign-in page with Become a Partner button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2168905053/1f6bade0936d81a4a26f5017cb7b/Screenshot+2026-03-16+at+10_40_07%E2%80%AFAM+%282%29.png)
+![Sign-in page with Become a Partner button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2512196292/da57c19eca1861a53ce91dd74754/image.png?expires=1782972000&signature=9ffc5aced847383f9308be8493923ca11f146832b1be401dfa5c340d169d6051&req=diUmFMh3m4NWW%2FMW3nq%2BgZNC3lJL5kWTrCiS9Vgg%2FYT58Z3d79wI8eX4IrXH%0ApctnqKL9Ei4L5UwEDuLhWfnEpqk%3D%0A)
 
 *Figure 2 — The "Become a Partner" button on the sign-in page.*
 
@@ -69,7 +69,7 @@ After the partner submits the form:
 
 Once approved, the partner gains access to the portal and can start registering deals.
 
-![Approval screen screenshot](https://partnerportalio.intercom-attachments-1.com/i/o/658816426/a80f942b093ba94bc8d998a0/image-png-Apr-30-2021-07-58-51-43-PM.png)
+![Approval screen screenshot](https://downloads.intercomcdn.com/i/o/j01nt7mc/2388404666/e2c6e3c382f414d718701a68f959/image.png?expires=1782840600&signature=70b1e50d3c6c9490477bd588db55fdf54161858a2f7134935446d1347ad9021e&req=diMvHs1%2BmYdZX%2FMW1HO4zTN2csdyJ6CD%2BVSvWnry0bwU11fZBpqfAb%2B1tTnv%0AcBgYEhs6Io0Da213CPE%3D%0A)
 
 *Figure 3 — Pending partner requests appear in the Admin panel for review.*
 
@@ -83,12 +83,11 @@ Use this option when you want to onboard partners without requiring them to fill
 
 ### Step 1 — Open the Invite Form
 
-1. Go to the **Partners** tab.
-2. Click **Invite**.
+1. Go to **Invite Partner** under the **Partners** menu section.
 
-![Partners tab with Invite button](https://downloads.intercomcdn.com/i/o/1012013991/3af8a7956eb07d32201a0946/Screenshot+2024-04-04+at+1_43_40+PM+%282%29.png)
+![Partners tab with Invite button](https://downloads.intercomcdn.com/i/o/j01nt7mc/2361889247/c8f58494dcacba9437a1926f126d/image.png?expires=1782972000&signature=1cbb663571e65433704f6867e78fbf3e04d1d7308800d77ac3684cefd16da75f&req=diMhF8F2lINbXvMW3nq%2Bgf51irew7FhBZp7ePt9wr5NaWeE1UNtxKkXSbUv5%0ArnFZXZefFVbw62VxEh7kJD7dKjY%3D%0A)
 
-*Figure 4 — The Invite button is located at the top of the Partners tab.*
+*Figure 4 — The Invite Partner option is located under the Partners menu section.*
 
 ### Step 2 — Fill in the Partner Details
 
@@ -115,11 +114,11 @@ If you need to onboard several partners at the same time, use the bulk invite fe
 2. Fill in your partner information following the template format.
 3. Upload the completed file.
 
-![Bulk invite upload screen](https://downloads.intercomcdn.com/i/o/1012016183/d53d7c42cc1017b75ac0a4fe/Screenshot+2024-04-04+at+1_45_04+PM+%282%29.png)
+![Bulk invite upload screen](https://downloads.intercomcdn.com/i/o/j01nt7mc/2361894736/851bfa4f3ef8e1e1ad81b22559c2/image.png?expires=1782972000&signature=d346c70237b6ea4174376d5896cb5e9de8d3fd5243d674482d07f6d1c33b63f2&req=diMhF8F3mYZcX%2FMW3nq%2BgTzVnocGvuAJ2GUy6DCKJkLNpZ1ZuO2NENtqWTOX%0AP8gfeuClMmnZJQSDT8SiDV7DXKs%3D%0A)
 
 *Figure 5 — Bulk invite upload screen. Download the CSV template before adding your data.*
 
-![Bulk invite confirmation screen](https://downloads.intercomcdn.com/i/o/1012016302/7f8f30d018463aa47e7d00b3/Screenshot+2024-04-04+at+1_45_15+PM+%282%29.png)
+![Bulk invite confirmation screen](https://downloads.intercomcdn.com/i/o/j01nt7mc/2361895024/5d492628f63702eee791ed76bc66/image.png?expires=1782972000&signature=b230c0e8c0699ac78ab5d3b75d5eb240db629983107fcf82e6d35e8be0abac1e&req=diMhF8F3mIFdXfMW3nq%2BgY7wtGg6XfNIq7XxYMnCwJZdBOvMjp5ZBs4I13RY%0A%2BVt76YzmZVy%2BzfDPh8rFAGBGZiI%3D%0A)
 
 *Figure 6 — The bulk invite screen shows the maximum number of partners that can be invited at once.*
 
